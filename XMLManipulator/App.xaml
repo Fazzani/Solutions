@@ -19,7 +19,6 @@
                 <ResourceDictionary Source="pack://application:,,,/Selen.Wpf.SystemStyles;component/Styles.xaml" />
                 <!--<ResourceDictionary Source="Themes/ShinyBlue.xaml" />
                 <ResourceDictionary Source="Themes/LinearGradientStyle.xaml" />-->
-                
             </ResourceDictionary.MergedDictionaries>
             <local:XmlElementConverter x:Key="XmlElementConverter" />
             <local:CommandParametersSearchConverter x:Key="CommandParametersSearchConverter" />
@@ -27,8 +26,6 @@
             <local:XmlPatternToBoolConverter x:Key="XmlPatternToBool" />
             <XMLManipulator:DemoAttachedProps x:Key="DemoAttachedProps" />
             <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
-
-
         </ResourceDictionary>
     </Application.Resources>
 </Application>
