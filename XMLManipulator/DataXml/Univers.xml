@@ -1,0 +1,1849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DIMENSION_NODE>
+	<DVAL_ID ID="4294967168" />
+	<SYN>Univers</SYN>
+	<TXTWELCOMEBYCAT> Chaque jour des milliers de promos : mode, high tech, électroménager... en magasin et sur internet.</TXTWELCOMEBYCAT>
+
+	<TITLEPAGE>Les bonnes promos - Réduction, bons plans et promotions près de chez vous</TITLEPAGE>
+	<TITLEH1>
+		<![CDATA[Avec <b>Les Bonnes Promos</b>, trouvez les bons plans près de chez vous !]]>
+	</TITLEH1>
+	<DESCRIPTIF>
+		<![CDATA[Les Bonnes Promos, c’est quoi ? C’est  l’assurance de trouver les meilleures <b>promos</b> près de chez vous ! Que vous cherchiez une chaine hifi, des fruits et légumes ou un gps, découvrez dans quel magasin votre achat vous coûtera le moins cher. Tapez votre recherche, parcourez des milliers de <b>promotions</b> et trouvez tous les bons plans de votre quartier. Alors ne cherchez plus, avec Les Bonnes Promos, les <b>bonnes affaires</b> sont déjà près de chez vous.]]>
+	</DESCRIPTIF>
+	<DESCRIPTION>
+		<![CDATA[
+		Les Bonnes Promos, c'est votre allié pour trouver toutes les promos dans les magasins près de chez vous
+		]]>
+	</DESCRIPTION>
+	<MAINKEYWORDS>Les Bonnes Promos</MAINKEYWORDS>
+	<OTHERSKEYWORDS>Promos, promotions, bonnes affaires</OTHERSKEYWORDS>
+
+	<DIMENSION_NODE>
+		<DVAL_ID ID="" />
+		<SYN>Mégas promos</SYN>
+		<POSITION>1</POSITION>
+		<TITLEPAGE>Megas Promos</TITLEPAGE>
+		<FIRSTMENULINK>Megas_Promo</FIRSTMENULINK>
+		<MENUCSSCLASS>megaPromos</MENUCSSCLASS>
+		<MENUPOSITION>first</MENUPOSITION>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Méga promos"</TXTWELCOMEBYCAT>
+		<TITLEPAGE>
+			Promotion Méga-promos - Les Bonnes Promos
+		</TITLEPAGE>
+		<XITI Niveau2="Mega-promo" ResId="38" ShpId="0" ClassId="0" PremId="0" ComparId="0"></XITI>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="195" />
+		<SYN>Bons plans</SYN>
+		<POSITION>0</POSITION>
+
+		<TITLEPAGE>Bons plans - Reductions et bonnes affaires pour acheter pas cher</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+			Les <b>Bons Plans</b> n’ont jamais été aussi proches de chez vous !
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Vous cherchez tous les <b>Bons Plans</b> près de chez vous ? Vous en avez marre de parcourir des kilomètres pour faire des économies ? Les Bonnes Promos sont là ! Avec le premier site de promos locales, trouvez toutes les<b>réductions</b> proposées dans les magasins près de chez vous. Acheter <b>pas cher</b> n’a jamais été aussi simple !
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+			A l'affut de bons plans dans votre quartier ? Ne cherchez plus ! Vous trouverez ici des tonnes de promos pour dépenser moins
+			]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Bons plans</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Bons plans, pas cher, réduction</OTHERSKEYWORDS>
+
+		<MENUCSSCLASS>BonsPlans</MENUCSSCLASS>
+		<MENUPOSITION>none</MENUPOSITION>
+		<TXTWELCOMEBYCAT>Bienvenue dans les "bons plans"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Bons-plans" ResId="106" ShpId="0" ClassId="0" PremId="0" ComparId="0"></XITI>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="" />
+		<SYN>Magasin</SYN>
+		<POSITION>0</POSITION>
+		<TITLEPAGE></TITLEPAGE>
+		<MENUCSSCLASS>Magasin</MENUCSSCLASS>
+		<MENUPOSITION>none</MENUPOSITION>
+		<TXTWELCOMEBYCAT>Bienvenue dans l'annuaire des "Magasins"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Magasin" ResId="38" ShpId="0" ClassId="0" PremId="0" ComparId="0"></XITI>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967167" />
+		<SYN>High Tech</SYN>
+		<POSITION>3</POSITION>
+
+		<TITLEPAGE>High tech - Reduction et promo, TV,  informatique, TV led, lecteur DVD - Les bonnes promos</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Retrouvez les promos <b>High Tech</b> à proximité de chez vous !
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+		Découvrez ici toutes nos promos High Tech. Que vous recherchiez du matériel <b>informatique</b>, de l’audio (<b>lecteur mp3, chaine hifi</b>) ou de la vidéo (<b>lecteur DVD, télévision</b>), vous trouverez votre bonheur sur cette page. Recherchez parmi des milliers de promos High Tech celles que vous désirez et découvrez quels sont les magasins qui proposent les prix les plus bas.
+		]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+		Promos high tech : avec des milliers de bons plans à saisir d’urgences, dépensez moins n’a jamais été aussi facile 
+		]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Hight tech</MAINKEYWORDS>
+		<OTHERSKEYWORDS>lecteur dvd, lecteur mp3, informatique, chaine hifi</OTHERSKEYWORDS>
+
+
+		<MENUCSSCLASS>highTech</MENUCSSCLASS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "High Tech"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+		<PROMOLISTCSS>top highTech</PROMOLISTCSS>
+		<PROMOLISTNBPROMOS>3</PROMOLISTNBPROMOS>
+		<BonsPlansSettings visible="true" position="0"/>
+		<HomeSettings visible="true" position="1"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Samsung</MARQUE>
+			<MARQUE Position="2">Philips</MARQUE>
+			<MARQUE Position="3">Canon</MARQUE>
+			<MARQUE Position="4">Nikon</MARQUE>
+			<MARQUE Position="5">LG Electronics</MARQUE>
+			<MARQUE Position="6">Sony</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Conforama</TITLE>
+				<POSITION>1</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967166" />
+			<SYN>Télévision et vidéo</SYN>
+			<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967165" />
+				<SYN>Télévision</SYN>
+				<TITLEPAGE>
+					Promotion Télévision, promos téléviseur lcd, led - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967164" />
+				<SYN>Lecteurs vidéo</SYN>
+				<TITLEPAGE>
+					Promotion Lecteur vidéo, promos lecteur DVD, Divx, MP4 - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967163" />
+				<SYN>Projecteurs</SYN>
+				<TITLEPAGE>
+					Promotion Projecteur vidéo, promos vidéo projecteurs - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967162" />
+				<SYN>Réception TV</SYN>
+				<TITLEPAGE>
+					Promotion Réception TV, promos adaptateurs TNT, récepteurs TV - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967161" />
+				<SYN>Accessoires TV, vidéo</SYN>
+				<TITLEPAGE>
+					Promotion Accessoire TV, promos lunettes 3D, antennes TV - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294916269" />
+				<SYN>Caméscope</SYN>
+				<TITLEPAGE>
+					Promotion Caméscope, promos camescopes DV, Full HD, tactiles - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967160" />
+				<SYN>Divers télévision</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967159" />
+			<SYN>Audio, hifi</SYN>
+			<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967158" />
+				<SYN>Enceintes, chaînes hifi</SYN>
+				<TITLEPAGE>
+					Promotion Chaine Hifi, promos mini-chaines, enceintes, systèmes son - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967157" />
+				<TITLEPAGE>
+					Promotion Baladeur, promos lecteurs MP3, casques, stations d'accueil MP3 - Les Bonnes Promos
+				</TITLEPAGE>
+				<SYN>Baladeurs</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967156" />
+				<SYN>Home cinéma</SYN>
+				<TITLEPAGE>
+					Promotion Home Cinéma, promos ensemble home cinema, sans fil, ampli - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967155" />
+				<SYN>Radio</SYN>
+				<TITLEPAGE>
+					Promotion Radio, promos radios réveils, tuners FM - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967154" />
+				<SYN>Accessoires audio</SYN>
+				<TITLEPAGE>
+					Promotion Accessoire Audio, promos dictaphones, radios - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967153" />
+				<SYN>Divers audio, hifi</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967152" />
+			<SYN>Photo</SYN>
+			<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967151" />
+				<SYN>Appareils photo</SYN>
+				<TITLEPAGE>
+					Promotion Appareil Photo, promos appareils photo numériques, bridges, compacts - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967150" />
+				<SYN>Accessoires photo</SYN>
+				<TITLEPAGE>
+					Promotion Accessoire Photo, promos objectifs photos, grand angle, macro - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967149" />
+				<SYN>Divers photo</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967148" />
+			<SYN>Informatique</SYN>
+			<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967147" />
+				<SYN>Périphériques, consommables</SYN>
+				<TITLEPAGE>
+					Promotion Périphériques {0}, Consommables, promos claviers, moniteurs, enceintes - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967146" />
+				<SYN>Ordinateurs portables</SYN>
+				<TITLEPAGE>
+					Promotion Ordinateur Portable, promos pc portables pas chers - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967145" />
+				<SYN>Ordinateurs de bureau</SYN>
+				<TITLEPAGE>
+					Promotion Ordinateur de Bureau, promos unités centrales, Apple et PC pas chers - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967144" />
+				<SYN>Imprimantes, scanners</SYN>
+				<TITLEPAGE>
+					Promotion Imprimante, scanners, promos imprimantes multifonctions, photos {0}- Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967143" />
+				<SYN>Logiciels</SYN>
+				<TITLEPAGE>
+					Promotion Logiciel, promos logiciels informatiques, PC, Apple - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967142" />
+				<SYN>Tablettes</SYN>
+				<TITLEPAGE>
+					Promotion Tablette, promos tablettes tactiles pas cher - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967141" />
+				<SYN>Composants informatiques</SYN>
+				<TITLEPAGE>
+					Promotion Composants Informatiques, promos cartes graphiques, micro-processeurs - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967140" />
+				<SYN>Stockage de données</SYN>
+				<TITLEPAGE>
+					Promotion Disque Dur Externe, promos clés USB, stockage de données - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967139" />
+				<SYN>Divers informatique</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967138" />
+			<SYN>Internet, téléphonie</SYN>
+			<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967137" />
+				<SYN>Téléphones fixes</SYN>
+				<TITLEPAGE>
+					Promotion Téléphone Fixe, promos téléphones sans fil, répondeur - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967136" />
+				<SYN>Téléphones portables</SYN>
+				<TITLEPAGE>
+					Promotion Téléphone Portable, promos mobiles tactiles, 3G - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967135" />
+				<SYN>Abonnements</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967134" />
+				<SYN>Accessoires internet, téléphonie</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967133" />
+				<SYN>Divers internet, téléphonie</SYN>
+				<XITI Niveau2="Hight-tech" ResId="3" ShpId="2" ClassId="4" PremId="5" ComparId="87" ExpDet="65"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967132" />
+		<SYN>Auto moto</SYN>
+		<POSITION>4</POSITION>
+
+
+		<TITLEPAGE>Auto moto - Reduction et promo, pneu, autoradio, gps, pièces autos</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Ne cherchez plus, tout l’<b>Auto Moto</b> à petit prix est là !   
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+		Retrouvez ici toutes nos promos Auto Moto. Vous cherchez des <b>pneus pas chers</b> ? Vous avez besoin d’un <b>autoradio</b> ou d’un nouveau <b>gps</b> ? Alors vous êtes au bon endroit ! Repérez  toutes les bonnes affaires de votre quartier et trouvez vos <b>accessoires motos</b> à petits prix. Avec Les Bonnes Promos,  passez à la vitesse supérieure et dénichez les meilleurs bons plans.
+		]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+		Promos Auto Moto : marre de payer vos pneu trop chère ? Consultez et trouvez près de chez vous les meilleures promos sur les accessoires autos  
+		]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Auto moto</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Pneu pas cher, autoradio, gps, accessoires moto</OTHERSKEYWORDS>
+
+
+
+		<PROMOLISTCSS>top autoMoto</PROMOLISTCSS>
+		<MENUCSSCLASS>autoMoto</MENUCSSCLASS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Auto Moto"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		<HomeSettings visible="false" position="0"/>
+		<BonsPlansSettings visible="false" position="3"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Garmin</MARQUE>
+			<MARQUE Position="2">Tomtom</MARQUE>
+			<MARQUE Position="3">Pioneer</MARQUE>
+			<MARQUE Position="4">JVC</MARQUE>
+			<MARQUE Position="5">Navigon</MARQUE>
+			<MARQUE Position="6">Kenwood</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967131" />
+			<SYN>GPS</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967130" />
+				<SYN>Boitiers GPS</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967129" />
+				<SYN>Avertisseurs de radars</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967128" />
+				<SYN>Divers GPS</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967127" />
+			<SYN>Audio, Vidéo</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967126" />
+				<SYN>Autoradios</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967125" />
+				<SYN>Ecrans portatifs DVD</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967124" />
+				<SYN>Enceintes auto</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967123" />
+				<SYN>Divers audio, vidéo</SYN>
+				<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967122" />
+			<SYN>Accessoires auto, pièces</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967121" />
+			<SYN>Autos</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967120" />
+			<SYN>Pneu</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967119" />
+			<SYN>Entretien auto</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967118" />
+			<SYN>Motos et scooters</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967117" />
+			<SYN>Vélos</SYN>
+			<XITI Niveau2="Auto-Moto" ResId="7" ShpId="6" ClassId="8" PremId="9" ComparId="88" ExpDet="66"></XITI>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967116" />
+		<SYN>Electroménager</SYN>
+		<POSITION>5</POSITION>
+
+		<TITLEPAGE>Electromenager - Reduction et promo, lave vaisselle, micro ondes, plaque de cuisson</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Promos <b>Electroménager</b> : des milliers de bons plans vous attendent !
+			]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Profitez ici de nos promos Electroménager. Plus besoin de parcourir les magasins pour savoir où trouver un <b>micro-onde</b> pas cher. Une simple recherche suffit ! Tapez, cliquez et trouvez en un instant les meilleures promos sur les <b>lave-vaisselles</b> ou bien encore les <b>sèche-linges</b>. C’est simple, rapide et pratique. Alors désormais, avant d’acheter vos <b>plaques de cuisson</b>, ayez le reflexe Les Bonnes Promos. 
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+		Promos Electroménager : arrêtez de courir les magasins pour trouver un lave-linge pas cher ! En un clic, trouvez ici les meilleures affaires près de chez vous
+			]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Electromenager</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Micro ondes, lave vaisselle, plaque de cuisson, séche linge</OTHERSKEYWORDS>
+
+
+		<MENUCSSCLASS>electromenager</MENUCSSCLASS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Electroménager"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="66"></XITI>
+		<PROMOLISTCSS>top electromenager</PROMOLISTCSS>
+		<PROMOLISTNBPROMOS>3</PROMOLISTNBPROMOS>
+		<HomeSettings visible="true" position="2"/>
+		<BonsPlansSettings visible="true" position="2"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Bosh</MARQUE>
+			<MARQUE Position="2">Whirlpool</MARQUE>
+			<MARQUE Position="3">Brandt</MARQUE>
+			<MARQUE Position="4">Siemens</MARQUE>
+			<MARQUE Position="5">Hotpoint</MARQUE>
+			<MARQUE Position="6">Krups</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Conforama</TITLE>
+				<POSITION>1</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967115" />
+			<SYN>Gros électroménager cuisine</SYN>
+			<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967114" />
+				<SYN>Fours, micro ondes</SYN>
+				<TITLEPAGE>Promotion Fours, Micro-ondes, promos fours encastrables, chaleur tournante, micro ondes - Les Bonnes Promos</TITLEPAGE>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967113" />
+				<SYN>Cuisinières, plaques de cuisson</SYN>
+				<TITLEPAGE>
+					Promotion Plaque de Cuisson, promos tables et plaques induction - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967112" />
+				<SYN>Réfrigérateurs</SYN>
+				<TITLEPAGE>Promotion Réfrigérateur, promos réfrigérateurs américains - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967111" />
+				<SYN>Congélateurs</SYN>
+				<TITLEPAGE>Promotion Congélateur, promos congélateurs coffres - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967110" />
+				<SYN>Hottes</SYN>
+				<TITLEPAGE>
+					Promotion Hotte, promos hottes aspirantes, décoratives - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967109" />
+				<SYN>Caves à vin</SYN>
+				<TITLEPAGE>
+					Promotion Cave à Vin, promos caves à vin - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967108" />
+				<SYN>Accessoires de cuisson</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967107" />
+				<SYN>Divers gros électroménager cuisine</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967106" />
+			<SYN>Gros électroménager lavage</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967105" />
+				<SYN>Lave-linge</SYN>
+				<TITLEPAGE>
+					Promotion Lave-Linge, promos machines à laver le linge, classe A - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967104" />
+				<SYN>Sèche-linge</SYN>
+				<TITLEPAGE>
+					Promotion Sèche-Linge, promos seche-linge classe A - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967103" />
+				<SYN>Lave-vaisselle</SYN>
+				<TITLEPAGE>
+					Promotion Lave-Vaisselle, promos lave-vaisselle encastrables - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967102" />
+				<SYN>Divers gros électroménager lavage</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967101" />
+				<SYN>Accessoires linge</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967100" />
+			<SYN>Petit électroménager cuisine</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967099" />
+				<SYN>Appareils petit déjeuner</SYN>
+				<TITLEPAGE>
+					Promotion Petit-Déjeuner, promos cafetières dosettes, grille-pains, bouilloires - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967098" />
+				<SYN>Appareils de cuisson</SYN>
+				<TITLEPAGE>
+					Promotion Appareils Cuisson, promos friteuses, fondues, planchas - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967097" />
+				<SYN>Préparation culinaire</SYN>
+				<TITLEPAGE>Promotion Robot Ménager, promos blenders, mixeurs, hachoirs, chauffe-biberons - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967096" />
+				<SYN>Ustensiles de cuisine</SYN>
+				<TITLEPAGE>
+					Promotion Ustensile Cuisine, promos autocuiseurs, poeles, cocottes, casseroles - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967095" />
+				<SYN>Divers petit électroménager cuisine</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967094" />
+			<SYN>Entretien</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967093" />
+				<SYN>Repassage et couture</SYN>
+				<TITLEPAGE>
+					Promotion Repassage et Couture, promos centrales vapeur, fers à repasser - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967092" />
+				<SYN>Aspirateurs</SYN>
+				<TITLEPAGE>
+					Promotion Entretien, promos aspirateurs, aspirateurs sans sac - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967091" />
+				<SYN>Traitement de l'air</SYN>
+				<TITLEPAGE>
+					Promotion Traitement de l'Air, promos humidificateurs, deshumidificateurs - Les Bonnes Promos
+				</TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967090" />
+				<SYN>Divers entretien</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967089" />
+			<SYN>Chauffage, climatisation</SYN>
+			<TITLEPAGE>
+				Promotion Chauffage, Climatisation, promos radiateurs, seche serviettes, clims - Les Bonnes Promos
+			</TITLEPAGE>
+			<XITI Niveau2="Electroménager" ShpId="10" ResId="11" ClassId="12" PremId="13" ComparId="89" ExpDet="67"></XITI>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967088" />
+		<SYN>Maison</SYN>
+		<POSITION>6</POSITION>
+
+		<TITLEPAGE>Maison - Reduction et promo, déco, linge de maison, salle à manger, jardinage</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+			Décorez votre <b>Maison</b> à des tarifs réduits en profitant de nos promos !
+			]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			La déco est votre passion ? Envie de transformer  votre <b>salle à manger</b> ? Besoin de nouveaux <b>luminaires</b> ? Alors bénéficiez de nos promos et refaites la <b>déco</b> de votre <b>maison</b> ! Ici, vous trouverez tout votre <b>linge de maison</b> sans exploser votre budget. Des tonnes de promos à saisir d’urgence vous attendent pour faire au quotidien des bonnes affaires.
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+			Promos Maison : tapez, cherchez et trouvez tous les produits déco et refaites votre salon sans déboursez une fortune grâce à nos milliers de bons plans
+			]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Maison</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Deco maison, linge de maison, salle à manger, luminaires</OTHERSKEYWORDS>
+
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Maison"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+		<MENUCSSCLASS>maison</MENUCSSCLASS>
+		<PROMOLISTCSS>top maison</PROMOLISTCSS>
+		<PROMOLISTNBPROMOS>3</PROMOLISTNBPROMOS>
+		<HomeSettings visible="true" position="3"/>
+		<BonsPlansSettings visible="true" position="5"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Tefal</MARQUE>
+			<MARQUE Position="2">Febreze</MARQUE>
+			<MARQUE Position="3">Lagrange</MARQUE>
+			<MARQUE Position="4">Telefunken</MARQUE>
+			<MARQUE Position="5">Karcher</MARQUE>
+			<MARQUE Position="6">Perfectline</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Conforama</TITLE>
+				<POSITION>1</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Brico Depot</TITLE>
+				<POSITION>6</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967087" />
+			<SYN>Déco</SYN>
+			<XITI Niveau2="RES_Maison" ShpId="" ResId="15" ClassId="16" PremId="17" ExpDet="68"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967086" />
+				<SYN>Vaisselles</SYN>
+				<TITLEPAGE>Promotion Vaisselle, promos assiettes, couverts, mugs, verres - Les Bonnes Promos</TITLEPAGE>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967085" />
+				<SYN>Objets de décoration</SYN>
+				<TITLEPAGE>Promotion Objet Décoration, promos déco maison, vases, bougies, cadres - Les Bonnes Promos</TITLEPAGE>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967084" />
+				<SYN>Linge de maison, rideaux</SYN>
+				<TITLEPAGE>Promotion Linge de maison, promos rideaux,  voilages, plaids, serviettes - Les Bonnes Promos</TITLEPAGE>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967083" />
+				<SYN>Luminaires</SYN>
+				<TITLEPAGE>Promotion Luminaire, promos lampadaires, lampes, suspensions - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967082" />
+				<SYN>Cadres et miroirs</SYN>
+				<TITLEPAGE>Promotion Cadre, Miroir, promos cadres photos numériques, toiles - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967081" />
+				<SYN>Cheminées</SYN>
+				<TITLEPAGE>Promotion Cheminée, promos combustibles liquides, cheminées, poeles - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967080" />
+				<SYN>Divers décoration</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967079" />
+			<SYN>Mobilier de maison</SYN>
+			<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967078" />
+				<SYN>Literie</SYN>
+				<TITLEPAGE>Promotion Literie, promos lits, matelas, oreillers - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967077" />
+				<SYN>Salon, salle à manger</SYN>
+				<TITLEPAGE>Promotion Salon, promos meubles salons, tapis, buffets, chaises - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967076" />
+				<SYN>Cuisine</SYN>
+				<TITLEPAGE>Promotion Cuisine, promos meubles cuisine, mobiliers de cuisine - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967075" />
+				<SYN>Chambre</SYN>
+				<TITLEPAGE>Promotion Chambre, promos chevet, commodes, armoires chambre - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967074" />
+				<SYN>Salle de bain</SYN>
+				<TITLEPAGE>Promotion Salle de Bain, promos pompes savon, tapis de bain, cabines de douche - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967073" />
+				<SYN>Bureau</SYN>
+				<TITLEPAGE>Promotion Bureau, promos bureaux, chaises dactylos, fauteuils cuir - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967072" />
+				<SYN>Divers mobilier de maison</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967071" />
+			<SYN>Bricolage</SYN>
+			<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967070" />
+				<SYN>Outillages</SYN>
+				<TITLEPAGE>Promotion Outillages, promos perceuses, perforateurs, nettoyeurs haute pression - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967069" />
+				<SYN>Electricité</SYN>
+				<TITLEPAGE>Promotion Electricité, promos ampoules, disjoncteurs, piles alcalines - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967068" />
+				<SYN>Peinture</SYN>
+				<TITLEPAGE>Promotion Peinture, promos enduits, laque, peinture acrylique - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967067" />
+				<SYN>Plomberie</SYN>
+				<TITLEPAGE>Promotion Plomberie, promos mitigeurs éviers, robinets - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967066" />
+				<SYN>Portes, fenêtres</SYN>
+				<TITLEPAGE>Promotion Portes Fenêtres, promos motorisations portail, portails battants, baies coulissantes - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967065" />
+				<SYN>Menuiserie</SYN>
+				<TITLEPAGE>Promotion Menuiserie, promos lambris, lambris PVC, panneaux, tablettes - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967064" />
+				<SYN>Quincaillerie</SYN>
+				<TITLEPAGE>Promotion Quincaillerie, promos white spirit, pentures, cremailleres - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967063" />
+				<SYN>Divers bricolage</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967062" />
+			<SYN>Jardin</SYN>
+			<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967061" />
+				<SYN>Plantes, fleurs</SYN>
+				<TITLEPAGE>Promotion Plante, Fleur, promos plantes d'interieur et d'exterieur - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967060" />
+				<SYN>Mobilier</SYN>
+				<TITLEPAGE>Promotion Mobilier de Jardin, promos chaises pliantes, abris de jardin - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967059" />
+				<SYN>Equipements de loisirs</SYN>
+				<TITLEPAGE>Promotion Loisirs Jardin, promos piscines, toboggans, abris de jardin - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967058" />
+				<SYN>Outils de jardinage</SYN>
+				<TITLEPAGE>Promotion Outils Jardinage, promos auvents, tondeuses electriques, tronconneuse - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967057" />
+				<SYN>Barbecues, planchas</SYN>
+				<TITLEPAGE>Promotion Barbecue, Plancha, promos barbecues electriques, planchas - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967056" />
+				<SYN>Divers jardin</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Maison" ShpId="14" ResId="15" ClassId="16" PremId="17" ComparId="90" ExpDet="68"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967055" />
+		<SYN>Culture Loisirs</SYN>
+		<POSITION>7</POSITION>
+
+		<TITLEPAGE>Culture loisirs - Reduction et promo, DVD, Ebook, livres, jeux vidéos</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+			Promos <b>Culture et Loisirs</b> : divertissez-vous sans vous ruinez !
+			]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Démocratisons ensemble la culture et les loisirs ! Vous trouverez ici une multitude de promos pour acheter moins cher vos <b>dvd</b> ou encore vos <b>jeux vidéo</b>.   <b>Ebook</b>, <b>livres</b>, <b>papeterie</b>, retrouvez ici toutes les meilleures promos possibles.  Avec Les Bonnes Promos, le plaisir de se divertir n’a vraiment pas de prix.
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+			Culture et loisirs : trouvez tous vos dvd, livres et jeux vidéo dans vos magasins favoris à des prix mini grâce à nos milliers de promos
+			]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Culture loisirs</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Ebook, livre, jeux vidéos, papeterie, dvd</OTHERSKEYWORDS>
+
+		<MENUCSSCLASS>cultureLoisirs</MENUCSSCLASS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Culture Loisirs"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+		<PROMOLISTCSS>top cultureLoisirs</PROMOLISTCSS>
+		<PROMOLISTNBPROMOS>3</PROMOLISTNBPROMOS>
+		<HomeSettings visible="true" position="4"/>
+		<BonsPlansSettings visible="true" position="2"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Pocketbook</MARQUE>
+			<MARQUE Position="2">Firefly</MARQUE>
+			<MARQUE Position="3">Bookeen</MARQUE>
+			<MARQUE Position="4">Adidas</MARQUE>
+			<MARQUE Position="5">Quicksilver</MARQUE>
+			<MARQUE Position="6">Scott</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Go Sport</TITLE>
+				<POSITION>10</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967054" />
+			<SYN>DVD</SYN>
+			<TITLEPAGE>Promotion DVD, promos Blu Ray,  coffrets dvd - Les Bonnes Promos</TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967053" />
+			<SYN>CD</SYN>
+			<TITLEPAGE>Promotion CD, promos disques,  cd audio - Les Bonnes Promos</TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967052" />
+			<SYN>Livres, ebook</SYN>
+			<TITLEPAGE>Promotion Livre, Ebook, promos livres, livres audio - Les Bonnes Promos</TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967051" />
+			<SYN>Papeterie</SYN>
+			<TITLEPAGE>Promotion Papeterie, promos livres, livres audio - Les Bonnes Promos</TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967050" />
+			<SYN>Jeux vidéo</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967049" />
+				<SYN>Consoles de jeux</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967048" />
+				<SYN>Jeux vidéo</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967047" />
+				<SYN>Divers jeux vidéo</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967046" />
+			<SYN>Sport, loisirs</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967045" />
+				<SYN>Pêche, chasse</SYN>
+				<TITLEPAGE>Promotion Peche, promos gilets, moulinets, cannes a peche - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967044" />
+				<SYN>Plage, montagne</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967043" />
+				<SYN>Bien-être</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967042" />
+				<SYN>Equipements sportifs</SYN>
+				<TITLEPAGE>Promotion Equipement Sport, promos trotinettes, patinettes, vetements sport - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967041" />
+				<SYN>Loisirs créatifs</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967040" />
+				<SYN>Divers sport, loisirs</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Culture-Loisirs" ShpId="26" ResId="27" ClassId="28" PremId="29" ComparId="93" ExpDet="71"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967039" />
+		<SYN>Enfants Bébés</SYN>
+		<POSITION>8</POSITION>
+
+		<TITLEPAGE>Enfants Bébés - Reduction et promo, jeux pour enfants, vêtements enfants, jouets</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Des milliers de promos <b>Enfants Bébés</b> sont à saisir d'urgence !
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Découvrez ici nos promos Enfants Bébés. Parce que rien n’est trop beau pour votre <b>bébé</b>, retrouvez ici des milliers de promos sur les <b>vêtements pour enfant</b>. Vous souhaitez également divertir votre <b>enfant</b> sans vous ruiner ? Pas de problème ! Découvrez toutes nos promos sur les <b>jeux éducatifs</b> et trouvez les meilleurs tarifs parmi vos enseignes favorites.
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+			Les meilleurs promos enfants et bébés sont ici : ne vous ruinez plus et profitez de nos bons plans sur des milliers d'articles
+		]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Enfants Bébés</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Bébé, enfant, jeux éducatifs, vêtement pour enfant</OTHERSKEYWORDS>
+
+		<MENUCSSCLASS>enfantBebe</MENUCSSCLASS>
+		<PROMOLISTCSS>top enfantBebe</PROMOLISTCSS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Enfants Bébés"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+		<HomeSettings visible="false" position="0"/>
+		<BonsPlansSettings visible="false" position="6"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Fisher Price</MARQUE>
+			<MARQUE Position="2">Moulinex</MARQUE>
+			<MARQUE Position="3">Beaba</MARQUE>
+			<MARQUE Position="4">Comptine</MARQUE>
+			<MARQUE Position="5">Babymoov</MARQUE>
+			<MARQUE Position="6">Safety 1st</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Conforama</TITLE>
+				<POSITION>1</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Go Sport</TITLE>
+				<POSITION>10</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Leader Price</TITLE>
+				<POSITION>11</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967038" />
+			<SYN>Espace bébé</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967037" />
+				<SYN>Equipement bébé</SYN>
+				<TITLEPAGE>Promotion Equipement Bébé, promos commodes, armoires chambre bébé - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967036" />
+				<SYN>Soins bébé</SYN>
+				<TITLEPAGE>Promotion Soins Bébé, promos couches, lingettes bébés, bavoirs - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967035" />
+				<SYN>Petit électroménager bébé</SYN>
+				<TITLEPAGE>Promotion Petit Electromenager Bébé, promos chauffe biberons, baby phones - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967034" />
+				<SYN>Jouets bébé</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967033" />
+				<SYN>Jeux éveil</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967032" />
+				<SYN>Divers bébé</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967031" />
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			<SYN>Jeux, jouets</SYN>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967030" />
+				<SYN>Jouets</SYN>
+				<TITLEPAGE>Promotion Jouets, promos peluches, costumes enfants, tricycles - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967029" />
+				<SYN>Jeux de société</SYN>
+				<TITLEPAGE>Promotion Jeu, promos jeux videos, jeux de plateaux - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967028" />
+				<SYN>Divers jeux, jouets</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Enfants-bebes" ShpId="22" ResId="23" ClassId="24" PremId="25" ComparId="92" ExpDet="70"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967027" />
+		<SYN>Mode beauté</SYN>
+		<POSITION>9</POSITION>
+
+		<TITLEPAGE>Mode Beauté - Reduction et promo, lingerie, bijoux, vêtements femmes, mode homme</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Découvrez tous les produits <b>Mode</b> et <b>Beauté</b> à des prix sacrifiés !
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Profitez de nos promos Mode et Beauté ! Vous êtes à  l’affût des dernières tendances en matière de <b>sac à main</b> ? Vous trouvez que votre budget <b>lingerie</b>, <b>beauté</b> et <b>bijoux</b> avoisine celui de votre loyer ? Pas de panique ! Avec Les Bonnes Promos, vous trouverez ici de quoi faire des économies tout en restant chic et tendance. 
+		]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+		Mode et Beauté : découvrez et profitez de milliers de promos pour rester tendance tout en faisant des économies
+		]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Mode Beauté</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Lingerie, bijoux, sac à main, beauté,</OTHERSKEYWORDS>
+		<BLOCPARTENAIRE>
+			<![CDATA[
+				<p class ="title partenaire"><strong>topannonces.fr</strong><p>
+                <p class ="partenaire-text"><strong><a href="http://www.topannonces.fr/annonces-mode-beaute-u207.html" target="_blank">Annonces mode, beauté pas cher</a></strong></p>
+                <p class ="partenaire-text">Découvrez des milliers d'articles de mode et beauté à vendre sur <strong>Topannonces.fr </strong>!</p>
+				]]>
+		</BLOCPARTENAIRE>
+		<MENUCSSCLASS>modeBeaute</MENUCSSCLASS>
+		<PROMOLISTCSS>top modeBeaute</PROMOLISTCSS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Mode beauté"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+		<HomeSettings visible="false" position="3"/>
+		<BonsPlansSettings visible="true" position="5"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Babyliss</MARQUE>
+			<MARQUE Position="2">Braun</MARQUE>
+			<MARQUE Position="3">Calor</MARQUE>
+			<MARQUE Position="4">Remington</MARQUE>
+			<MARQUE Position="5">Soehnle</MARQUE>
+			<MARQUE Position="6">Beurer</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Go Sport</TITLE>
+				<POSITION>10</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Leader Price</TITLE>
+				<POSITION>11</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967026" />
+			<SYN>Mode, accessoires</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967025" />
+				<SYN>Mode femme</SYN>
+				<TITLEPAGE>Promotion Mode Femme, promos robes, pantalons femme, vetements femme - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967024" />
+				<SYN>Lingerie</SYN>
+				<TITLEPAGE>Promotion Lingerie, promos culottes, boxers, slips, soutien-gorges - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967023" />
+				<SYN>Mode homme</SYN>
+				<TITLEPAGE>Promotion Mode Homme, promos jean homme, chemises, vetements homme - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967022" />
+				<SYN>Mode enfant</SYN>
+				<TITLEPAGE>Promotion Mode Enfant, promos ballerines, botillons, salomes, vetements enfants - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967021" />
+				<SYN>Chaussures</SYN>
+				<TITLEPAGE>Promotion Chaussures, promos bottes, chaussons, sandales, escarpins - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967020" />
+				<SYN>Maroquinerie</SYN>
+				<TITLEPAGE>Promotion Maroquinerie, promos valises, sacs a roulettes, pochettes - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967019" />
+				<SYN>Divers mode, accessoires</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967018" />
+			<SYN>Beauté, santé</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967017" />
+				<SYN>Hygiène</SYN>
+				<TITLEPAGE>Promotion Hygiène, promos dentifrices, brosses à dent, papier toilette - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967016" />
+				<SYN>Soin des cheveux</SYN>
+				<TITLEPAGE>Promotion Soin Cheveux, promos shampooings, colorations cheveux, gels coiffant - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967015" />
+				<SYN>Soin homme</SYN>
+				<TITLEPAGE>Promotion Soin Homme, promos rasoirs electriques, jetables, tondeuses - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967014" />
+				<SYN>Maquillage, parfum</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967013" />
+				<SYN>Soin du visage</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967012" />
+				<SYN>Soin du corps</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967011" />
+				<SYN>Appareils, accessoires beauté</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967010" />
+				<SYN>Divers beauté, santé</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967009" />
+			<SYN>Bijoux, montres</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967008" />
+				<SYN>Bijoux</SYN>
+				<TITLEPAGE>Promotion Bijoux, promos bagues, or, argent, alliances, pendentifs - Les Bonnes Promos</TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+			<DIMENSION_NODE>
+				<DVAL_ID ID="4294967007" />
+				<SYN>Montres</SYN>
+				<TITLEPAGE></TITLEPAGE>
+				<XITI Niveau2="Mode-beaute" ShpId="18" ResId="19" ClassId="20" PremId="21" ComparId="91" ExpDet="69"></XITI>
+			</DIMENSION_NODE>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294966990" />
+		<SYN>Divers</SYN>
+		<POSITION>10</POSITION>
+
+		<TITLEPAGE>Divers - Reduction et promo, immobiliers, restaurants, contrat d'assurance</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Découvrez une grande variété de <b>prestations de services</b> !
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[	]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Divers</MAINKEYWORDS>
+		<OTHERSKEYWORDS>assurrance, credit immobiliers, restaurants, maison, accessoires pour chiens</OTHERSKEYWORDS>
+
+		<MENUCSSCLASS>divers</MENUCSSCLASS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Divers"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+		<PROMOLISTCSS>top divers</PROMOLISTCSS>
+		<HomeSettings visible="false" position="3"/>
+		<BonsPlansSettings visible="true" position="7"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Whiskas</MARQUE>
+			<MARQUE Position="2">Purina gourmet</MARQUE>
+			<MARQUE Position="3">Decayeux</MARQUE>
+			<MARQUE Position="4">Brekkies excel-chien</MARQUE>
+			<MARQUE Position="5">Cesar</MARQUE>
+			<MARQUE Position="6">Friskies</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Conforama</TITLE>
+				<POSITION>1</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Bhv</TITLE>
+				<POSITION>5</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Brico Depot</TITLE>
+				<POSITION>6</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Casa</TITLE>
+				<POSITION>8</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Go Sport</TITLE>
+				<POSITION>10</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Leader Price</TITLE>
+				<POSITION>11</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966989" />
+			<SYN>Assurances, immobilier, finances</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+			<BLOCPARTENAIRE>
+				<![CDATA[
+				<p class ="title partenaire"><strong>AcommeAssure</strong></p>
+                <p class ="partenaire-text">Vous cherchez une assurance moins chère ?
+                <p class="partenaire-text">Habitation, auto, mutuelle : utilisez le <a href="http://www.acommeassure.com/comparateur-assurance" target="_blank">comparateur d'assurance</a> <b>AcommeAssure</b> et recevez votre devis gratuit !</p>
+				]]>
+			</BLOCPARTENAIRE>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966988" />
+			<SYN>Livraison à domicile, services</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966987" />
+			<SYN>Restaurants</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966986" />
+			<SYN>Animaux</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966985" />
+			<SYN>Autres</SYN>
+			<TITLEPAGE></TITLEPAGE>
+			<XITI Niveau2="Divers" ShpId="30" ResId="31" ClassId="32" PremId="33" ComparId="94" ExpDet="72"></XITI>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="4294967006" />
+		<SYN>Alimentation, Courses</SYN>
+		<POSITION>11</POSITION>
+
+		<TITLEPAGE>Alimentation - Reduction et promo, fruits et légumes, produits laitiers, surgelés</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+		Promos <b>Alimentation</b> : faites vos courses à des prix imbattables ! 
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Découvrez ici toutes nos promos <b>Alimentation</b>. Trouvez parmi des milliers de promos les meilleures réductions en magasin sur les <b>fruits et légumes</b>, les <b>produits laitiers</b> et bien d’autres encore. Vous avez déjà une liste de courses en tête ? Vous cherchez vos <b>surgelés</b> au meilleur prix ? Formulez simplement votre requête et laissez-vous guider. Achetez malin près de chez soi, c’est maintenant possible ! 
+		]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+		Marre de payer vos fruits et légumes trop chères ? Trouvez ici des mégas réductions sur tous les produits Alimentation pour faire vos courses tout en dépensant moins.
+		]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Alimentation </MAINKEYWORDS>
+		<OTHERSKEYWORDS>alimentation, fruits et légumes, surgelés, produits laitiers</OTHERSKEYWORDS>
+
+		<MENUCSSCLASS>alimentationCourses</MENUCSSCLASS>
+		<PROMOLISTCSS>top alimentationCourses</PROMOLISTCSS>
+		<PROMOLISTNBPROMOS>3</PROMOLISTNBPROMOS>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Alimentaire / Courses"</TXTWELCOMEBYCAT>
+		<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		<HomeSettings visible="true" position="5"/>
+		<BonsPlansSettings visible="false" position="0"/>
+
+		<TOPMARQUES>
+			<MARQUE Position="1">Cemoi</MARQUE>
+			<MARQUE Position="2">Coca Cola</MARQUE>
+			<MARQUE Position="3">Magimix-nespresso</MARQUE>
+			<MARQUE Position="4">Lindt</MARQUE>
+			<MARQUE Position="5">Lustucru</MARQUE>
+			<MARQUE Position="6">Milka</MARQUE>
+		</TOPMARQUES>
+		<MAGASINS>
+			<MAGASIN>
+				<TITLE>Auchan</TITLE>
+				<POSITION>2</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Aldi</TITLE>
+				<POSITION>4</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Carrefour</TITLE>
+				<POSITION>7</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+			<MAGASIN>
+				<TITLE>Leader Price</TITLE>
+				<POSITION>11</POSITION>
+				<LINK>#</LINK>
+			</MAGASIN>
+		</MAGASINS>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967005" />
+			<SYN>Petit déjeuner</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967004" />
+			<SYN>Produits laitiers</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967003" />
+			<SYN>Aliments bébé</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967002" />
+			<SYN>Fruits, légumes</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967001" />
+			<SYN>Charcuterie, boucherie</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294967000" />
+			<SYN>Poissonnerie</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966999" />
+			<SYN>Conserves</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966998" />
+			<SYN>Traiteur</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966997" />
+			<SYN>Epicerie salée</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966996" />
+			<SYN>Alcools, vins</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966995" />
+			<SYN>Boissons sans alcool</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966994" />
+			<SYN>Epicerie sucrée</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966993" />
+			<SYN>Surgelés</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966992" />
+			<SYN>Divers alimentation, courses</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+		<DIMENSION_NODE>
+			<DVAL_ID ID="4294966991" />
+			<SYN>Produits d'entretien, lessives</SYN>
+			<XITI Niveau2="Alimentation" ShpId="34" ResId="35" ClassId="36" PremId="37" ComparId="95" ExpDet="73"></XITI>
+		</DIMENSION_NODE>
+	</DIMENSION_NODE>
+	<DIMENSION_NODE>
+		<DVAL_ID ID="" />
+		<SYN>Coupons de réduction</SYN>
+		<POSITION>16</POSITION>
+
+
+		<TITLEPAGE>Coupons de reduction à imprimer et bons de réductions</TITLEPAGE>
+		<TITLEH1>
+			<![CDATA[
+			<b>Imprimez</b> vos <b>Bons de réduction</b> et profitez-en en caisse ! 
+		]]>
+		</TITLEH1>
+		<DESCRIPTIF>
+			<![CDATA[
+			Découvrez nos <b>Bons de réductions</b> à imprimer et réalisez des économies sur vos achats en magasin. C’est simple et en quelques secondes, faites votre liste de courses tout en réalisant des économies. Comment ? Tout d’abord, sélectionnez les <b>coupons de réduction</b> qui vous intéressent et ensuite imprimez-les. Il ne vous reste plus qu’à les présenter directement à la caisse de votre magasin le plus proche.
+			]]>
+		</DESCRIPTIF>
+		<DESCRIPTION>
+			<![CDATA[
+			Faites vos courses avec nos bons de réduction à imprimer. Economisez ainsi tous les jours sur vos achats alimentaires
+			]]>
+		</DESCRIPTION>
+		<MAINKEYWORDS>Coupons de réduction à imprimer</MAINKEYWORDS>
+		<OTHERSKEYWORDS>Bons de réduction à imprimer, coupons de réduction</OTHERSKEYWORDS>
+
+
+		<MENUCSSCLASS>coupons</MENUCSSCLASS>
+		<MENUPOSITION>none</MENUPOSITION>
+		<FIRSTMENULINK>Popin/PopinCoupons</FIRSTMENULINK>
+		<TXTWELCOMEBYCAT>Bienvenue dans la catégorie "Coupons de réduction"</TXTWELCOMEBYCAT>
+		<XITI Niveau2=""></XITI>
+
+
+	</DIMENSION_NODE>
+</DIMENSION_NODE>

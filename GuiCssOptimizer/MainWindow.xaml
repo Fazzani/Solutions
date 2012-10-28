@@ -1,0 +1,52 @@
+﻿<Window x:Class="GuiCssOptimizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Css Optimizer" Height="430.2" Width="538" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Lancer" HorizontalAlignment="Left" Margin="430,362,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click_2"/>
+        <TextBox x:Name="txtUrl" Height="23" Margin="52,10,77,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label Content="Url" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Options" HorizontalAlignment="Left" Margin="21,142,0,0" VerticalAlignment="Top" Width="499" Height="115">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <CheckBox Grid.Row="0" Grid.Column="0" Content="Générer un fichier commun" VerticalAlignment="Top" Margin="10" IsChecked="{Binding IsGenerateCommunFile, Mode=TwoWay}"/>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" Height="30" Margin="10,0,0,0" HorizontalAlignment="Left" Width="240" >
+                    <CheckBox Name="chkOrga" Content="Organiser les fichiers" VerticalAlignment="Top"  IsChecked="{Binding IsOrgonizeFile, Mode=TwoWay}" Margin="0 10 10 0" Width="138"/>
+                    <ComboBox x:Name="cmbQuality" VerticalAlignment="Top" SelectedItem="{Binding CompressQuality}" ItemsSource="{Binding CssTidyOptimizeQualityEnum}" Width="89" Margin="0,10,10,0" IsEnabled="{Binding ElementName=chkOrga, Path=IsChecked }" />
+                </StackPanel>
+                <CheckBox Grid.Row="1" Grid.Column="0" Content="Compresser les fichiers" VerticalAlignment="Top" Margin="10,12,39,0" IsChecked="{Binding IsCompressFile, Mode=TwoWay}"/>
+                <CheckBox Grid.Row="1" Grid.Column="1" Content="Supprimer les commentaires" VerticalAlignment="Top" Margin="10,13,30,0" IsChecked="{Binding IsDeleteComment, Mode=TwoWay}"/>
+            </Grid>
+        </GroupBox>
+        <ProgressBar Margin="21,361,130,0" Value="{Binding ProgessBarEtat}" Height="23" VerticalAlignment="Top"/>
+        <ListBox Name="lstbx" Height="76" Margin="21,271,12,0" VerticalAlignment="Top" ItemsSource="{Binding ListCssFiles, Mode=TwoWay}" DisplayMemberPath="Name"  />
+        <Button x:Name="btnAddUrl" Content="+ ->" Margin="472,14,25,0" VerticalAlignment="Top" Click="btnAddUrl_Click"/>
+        <ListView Name="lvUrls" HorizontalAlignment="Left" Height="86" Margin="22,51,0,0" VerticalAlignment="Top" Width="498" ItemsSource="{Binding ListUrl, Mode=TwoWay}" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Les adresses" Width="320">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox Name="txtUrlItem" Text="{Binding Path=Path, Mode=TwoWay}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Le nom du fichier" Width="180">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox Name="txtUrlItem" Text="{Binding Path=FileName, Mode=TwoWay}"  />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

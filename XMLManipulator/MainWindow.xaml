@@ -1,0 +1,63 @@
+﻿<Controls:MetroWindow x:Class="XMLManipulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WPF4"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:XMLManipulator="clr-namespace:XMLManipulator.Outils"
+        xmlns:Root="clr-namespace:XMLManipulator" Name="XmlUniversWindow"
+        Title="Univers.XML" Height="780" Width="889.7" WindowState="Maximized" TitleForeground="#999988"
+        DataContext="{Binding MainMV, Source={StaticResource Locator}}">
+    <Control.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Main.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Control.Resources>
+    <Grid RenderTransformOrigin="0.503,0.384">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="540" />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="49"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <GridSplitter Width="2" Background="Gray" Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch" ResizeDirection="Columns" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="3" VerticalAlignment="Top" Grid.Column="0" Height="49" HorizontalAlignment="Right" Margin="0,0,10,0">
+            <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Style="{StaticResource SearchTextBox}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="TextChanged" >
+                        <cmd:EventToCommand  Command="{Binding SearchCommand}">
+                            <cmd:EventToCommand.CommandParameter>
+                                <MultiBinding Converter="{StaticResource CommandParametersSearchConverter}">
+                                    <Binding ElementName="txtSearch" Path="Text"></Binding>
+                                    <Binding ElementName="trvUnivers"></Binding>
+                                </MultiBinding>
+                            </cmd:EventToCommand.CommandParameter>
+                        </cmd:EventToCommand>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0">
+            <Button x:Name="Open" Command="{Binding OpenCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Open">
+                <Image Source="Images\open.png"></Image>
+            </Button>
+            <Button x:Name="Save"  Command="{Binding SaveAsCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Save">
+                <Image Margin="2" Source="Images\save.png"></Image>
+            </Button>
+            <Button x:Name="Refresh"  Command="{Binding SaveCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Refresh">
+                <Image Source="Images\refresh.png"></Image>
+            </Button>
+
+        </StackPanel>
+        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}"/>
+        <GroupBox Header="Informations" Grid.Row="1" Grid.Column="2" >
+            <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerText, Mode=TwoWay}" />
+        </GroupBox>
+    </Grid>
+</Controls:MetroWindow>

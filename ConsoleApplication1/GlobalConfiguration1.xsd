@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="XITI">
+    <xs:attribute name="Niveau2" type="xs:string" use="required" />
+    <xs:attribute name="ResId" type="xs:unsignedByte" use="required" />
+    <xs:attribute name="ShpId" type="xs:string" use="required" />
+    <xs:attribute name="ClassId" type="xs:unsignedByte" use="required" />
+    <xs:attribute name="PremId" type="xs:unsignedByte" use="required" />
+    <xs:attribute name="ComparId" type="xs:unsignedByte" use="optional" />
+    <xs:attribute name="ExpDet" type="xs:unsignedByte" use="required" />
+  </xs:complexType>
+  <xs:element name="TxtWelcomeByCat" type="xs:string" />
+  <xs:element name="GlobalConfiguration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Magasins">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Magasin">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TITLE" type="xs:string" />
+                    <xs:element name="URL_LOGO_OFF" type="xs:string" />
+                    <xs:element name="URL_LOGO_ON" type="xs:string" />
+                    <xs:element name="POSITION" type="xs:unsignedByte" />
+                    <xs:element name="LINK" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="TxtWelcomeByCat" />
+        <xs:element maxOccurs="unbounded" name="Categorie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="Menu">
+                  <xs:complexType>
+                    <xs:attribute name="Position" type="xs:unsignedByte" use="required" />
+                    <xs:attribute name="MENUCSSCLASS" type="xs:string" use="required" />
+                    <xs:attribute name="MENUPOSITION" type="xs:string" use="optional" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="Home">
+                  <xs:complexType>
+                    <xs:attribute name="PROMOLISTCSS" type="xs:string" use="required" />
+                    <xs:attribute name="PROMOLISTNBPROMOS" type="xs:unsignedByte" use="optional" />
+                    <xs:attribute name="PROMOLISTDISPLAYORDER" type="xs:unsignedByte" use="optional" />
+                    <xs:attribute name="visible" type="xs:boolean" use="required" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="BonsPlans">
+                  <xs:complexType>
+                    <xs:attribute name="visible" type="xs:boolean" use="required" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element ref="TxtWelcomeByCat" />
+                <xs:element name="XITI" type="XITI"></xs:element>
+                <xs:element name="TOPRECHERCHE">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element maxOccurs="unbounded" name="ELEMENT">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="POSITION" type="xs:unsignedByte" use="required" />
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="TOPMARQUES">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element maxOccurs="unbounded" name="MARQUE">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="Position" type="xs:unsignedByte" use="required" />
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="Magasins">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element maxOccurs="unbounded" name="Magasin">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="TITLE" type="xs:string" />
+                            <xs:element name="URL_LOGO_OFF" type="xs:string" />
+                            <xs:element name="URL_LOGO_ON" type="xs:string" />
+                            <xs:element name="POSITION" type="xs:unsignedByte" />
+                            <xs:element name="LINK" type="xs:string" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" name="Categorie">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:choice maxOccurs="unbounded">
+                        <xs:element name="TITLECategorie" type="xs:string" />
+                        <xs:element name="DVAL_ID">
+                          <xs:complexType>
+                            <xs:attribute name="ID" type="xs:unsignedInt" use="required" />
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element name="SYN" type="xs:string" />
+                        <xs:element name="XITI" type="XITI">
+                        </xs:element>
+                        <xs:element maxOccurs="unbounded" name="Categorie">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" name="DVAL_ID">
+                                <xs:complexType>
+                                  <xs:attribute name="ID" type="xs:unsignedInt" use="required" />
+                                </xs:complexType>
+                              </xs:element>
+                              <xs:element minOccurs="0" name="SYN" type="xs:string" />
+                              <xs:element minOccurs="0" name="TITLECategorie" type="xs:string" />
+                              <xs:element minOccurs="0" name="XITI" type="XITI">
+                              </xs:element>
+                            </xs:sequence>
+                            <xs:attribute name="Title" type="xs:string" use="required" />
+                            <xs:attribute name="DVAL_ID" type="xs:unsignedInt" use="required" />
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:choice>
+                    </xs:sequence>
+                    <xs:attribute name="Title" type="xs:string" use="required" />
+                    <xs:attribute name="DVAL_ID" type="xs:unsignedInt" use="required" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="FIRSTMENULINK" type="xs:string" />
+              </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="TITLEPAGE" type="xs:string" use="optional" />
+            <xs:attribute name="Title" type="xs:string" use="required" />
+            <xs:attribute name="DVAL_ID" type="xs:unsignedInt" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="DVAL_ID" type="xs:unsignedInt" use="required" />
+      <xs:attribute name="Title" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

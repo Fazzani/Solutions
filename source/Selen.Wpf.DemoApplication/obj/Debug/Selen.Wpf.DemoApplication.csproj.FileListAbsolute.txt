@@ -1,0 +1,21 @@
+C:\Users\922261\Desktop\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.DemoApplication.exe.config
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.DemoApplication.exe.config
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.DemoApplication.exe
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.DemoApplication.pdb
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\MahApps.Metro.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.Core.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.SystemStyles.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.Core.pdb
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\bin\Debug\Selen.Wpf.SystemStyles.pdb
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.csprojResolveAssemblyReference.cache
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\MainWindow.baml
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\App.baml
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\MainWindow.g.cs
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\App.g.cs
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication_MarkupCompile.cache
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.g.resources
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.Properties.Resources.resources
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.csproj.GenerateResource.Cache
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.exe
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.DemoApplication\obj\Debug\Selen.Wpf.DemoApplication.pdb

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCssOptimizer", "MvcApplication1\MvcCssOptimizer.csproj", "{0602A816-C59C-43F0-B989-7DFCBE236B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCssOptimizer", "ConsoleApplication2\ConsoleCssOptimizer.csproj", "{BC9A4941-66FB-43A8-8429-FCDD1662F9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiCssOptimizer", "GuiCssOptimizer\GuiCssOptimizer.csproj", "{25D28FB7-5F4E-46F1-8E6E-A34B4A523BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssOptimizer", "CssOptimizer\CssOptimizer.csproj", "{B4440D81-100C-47DC-82F5-957B0A231C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLManipulator", "XMLManipulator\XMLManipulator.csproj", "{926A0DA9-6C3B-4ACF-A28F-0C299AF3C174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selen.Wpf.SystemStyles", "source\Selen.Wpf.SystemStyles\Selen.Wpf.SystemStyles.csproj", "{A468315F-FA11-4BC2-8E5F-EA3C48B24C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selen.Wpf.Core", "source\Selen.Wpf.Core\Selen.Wpf.Core.csproj", "{C94C1BDD-11F9-4A3F-8929-86B1B67AE1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{4A9F6E87-4EF4-474E-BDA7-A01EC101D5AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0602A816-C59C-43F0-B989-7DFCBE236B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0602A816-C59C-43F0-B989-7DFCBE236B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0602A816-C59C-43F0-B989-7DFCBE236B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9A4941-66FB-43A8-8429-FCDD1662F9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9A4941-66FB-43A8-8429-FCDD1662F9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9A4941-66FB-43A8-8429-FCDD1662F9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D28FB7-5F4E-46F1-8E6E-A34B4A523BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D28FB7-5F4E-46F1-8E6E-A34B4A523BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D28FB7-5F4E-46F1-8E6E-A34B4A523BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4440D81-100C-47DC-82F5-957B0A231C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4440D81-100C-47DC-82F5-957B0A231C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4440D81-100C-47DC-82F5-957B0A231C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926A0DA9-6C3B-4ACF-A28F-0C299AF3C174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926A0DA9-6C3B-4ACF-A28F-0C299AF3C174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926A0DA9-6C3B-4ACF-A28F-0C299AF3C174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926A0DA9-6C3B-4ACF-A28F-0C299AF3C174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A468315F-FA11-4BC2-8E5F-EA3C48B24C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A468315F-FA11-4BC2-8E5F-EA3C48B24C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A468315F-FA11-4BC2-8E5F-EA3C48B24C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A468315F-FA11-4BC2-8E5F-EA3C48B24C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94C1BDD-11F9-4A3F-8929-86B1B67AE1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94C1BDD-11F9-4A3F-8929-86B1B67AE1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94C1BDD-11F9-4A3F-8929-86B1B67AE1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94C1BDD-11F9-4A3F-8929-86B1B67AE1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9F6E87-4EF4-474E-BDA7-A01EC101D5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9F6E87-4EF4-474E-BDA7-A01EC101D5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9F6E87-4EF4-474E-BDA7-A01EC101D5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9F6E87-4EF4-474E-BDA7-A01EC101D5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

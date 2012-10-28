@@ -1,0 +1,11 @@
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\bin\Debug\Selen.Wpf.Core.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\bin\Debug\Selen.Wpf.Core.pdb
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Resources.baml
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core_MarkupCompile.cache
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.g.resources
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.Properties.Resources.resources
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.csproj.GenerateResource.Cache
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.dll
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.pdb
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\ResourcesWhite.baml
+C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\source\Selen.Wpf.Core\obj\Debug\Selen.Wpf.Core.csprojResolveAssemblyReference.cache

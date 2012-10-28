@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application x:Class="XMLManipulator.App" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:local="clr-namespace:XMLManipulator.Converter" 
+             xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit" 
+             xmlns:XMLManipulator="clr-namespace:XMLManipulator.Outils" 
+             StartupUri="MainWindow.xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:vm="clr-namespace:XMLManipulator.ViewModel" mc:Ignorable="d">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.Tooltip.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.Buttons.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Selen.Wpf.Core;component/Resources.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Selen.Wpf.SystemStyles;component/Styles.xaml" />
+                <!--<ResourceDictionary Source="Themes/ShinyBlue.xaml" />
+                <ResourceDictionary Source="Themes/LinearGradientStyle.xaml" />-->
+                
+            </ResourceDictionary.MergedDictionaries>
+            <local:XmlElementConverter x:Key="XmlElementConverter" />
+            <local:CommandParametersSearchConverter x:Key="CommandParametersSearchConverter" />
+            <local:XMLElementCountConverter x:Key="XMLElementCountConverter" />
+            <local:XmlPatternToBoolConverter x:Key="XmlPatternToBool" />
+            <XMLManipulator:DemoAttachedProps x:Key="DemoAttachedProps" />
+            <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

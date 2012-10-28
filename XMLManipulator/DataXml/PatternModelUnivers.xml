@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DIMENSION_NODE display="1" editable="0">
+  <DVAL_ID display="1" editable="0" />
+  <SYN display="1" editable="1"/>
+  <POSITION display="1"/>
+  <TITLEPAGE display="1" editable="1"/>
+  <TITLEH1/>
+  <FIRSTMENULINK/>
+  <MENUCSSCLASS/>
+  <MENUPOSITION/>
+  <TXTWELCOMEBYCAT display="1"/>
+  <TITLEPAGE display="1" editable="1"/>
+  <XITI></XITI>
+  <BLOCPARTENAIRE display="1" editable="1"/>
+  <DESCRIPTIF display="1" editable="1"/>
+  <MAINKEYWORDS/>
+  <OTHERSKEYWORDS/>
+  <MENUCSSCLASS/>
+  <PROMOLISTCSS/>
+  <PROMOLISTNBPROMOS/>
+  <BonsPlansSettings/>
+  <HomeSettings/>
+  <TOPMARQUES display="1" editable="0">
+    <MARQUE display="1" editable="1"/>
+  </TOPMARQUES>
+  <MAGASINS display="1" editable="0">
+    <MAGASIN display="1" editable="1">
+      <TITLE display="1" editable="1"/>
+      <POSITION display="1" editable="0"/>
+      <LINK display="1" editable="0"/>
+    </MAGASIN>
+  </MAGASINS>
+</DIMENSION_NODE>
