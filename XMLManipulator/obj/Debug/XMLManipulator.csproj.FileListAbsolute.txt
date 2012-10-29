@@ -61,3 +61,6 @@ C:\Users\922261\Google Drive\Solutions .net\MvcApplication1\XMLManipulator\obj\D
 C:\Bins\bin xml manip\Debug\XMLManipulator.exe.config
 C:\Users\Heni\Solutions GitHub\XMLManipulator\obj\Debug\XMLManipulator.exe
 C:\Users\Heni\Solutions GitHub\XMLManipulator\obj\Debug\XMLManipulator.pdb
+D:\Bins\bin xml manip\Debug\XMLManipulator.exe.config
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.exe
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.pdb

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Heni\Solutions GitHub\source\Selen.Wpf.SystemStyles\obj\Debug\
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\
 Selen.Wpf.SystemStyles
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 13-989313051
 
-7-2002862279
-1631043115
+71057139657
+16-2074078224
 ButtonStyles.xaml;ComboBoxStyles.xaml;ContextMenuStyles.xaml;DataGridStyles.xaml;GroupBoxStyles.xaml;ListBoxStyles.xaml;MenuStyles.xaml;MessageBoxStyles.xaml;ScrollBarStyles.xaml;Styles.xaml;TabControlStyles.xaml;TextBoxStyles.xaml;WindowStyles.xaml;
 
 False
