@@ -1,9 +1,0 @@
-C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\Tools\bin\Debug\Tools.dll
-C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\Tools\bin\Debug\Tools.pdb
-C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\Tools\obj\Debug\Tools.dll
-C:\Users\922261\Documents\Visual Studio 2012\Projects\MvcApplication1\Tools\obj\Debug\Tools.pdb
-D:\RepoGitHub\Tools\bin\Debug\Tools.dll
-D:\RepoGitHub\Tools\bin\Debug\Tools.pdb
-D:\RepoGitHub\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
-D:\RepoGitHub\Tools\obj\Debug\Tools.dll
-D:\RepoGitHub\Tools\obj\Debug\Tools.pdb
