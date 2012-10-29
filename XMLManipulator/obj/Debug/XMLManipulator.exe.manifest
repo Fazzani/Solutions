@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="XMLManipulator.exe" version="1.0.0.34" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="XMLManipulator.exe" version="1.0.0.35" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="XMLManipulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -97,7 +97,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SkGwbKq5RYWor8rR1bmyZSd8r02H48NIPBTa6irNhm4=</dsig:DigestValue>
+        <dsig:DigestValue>ETLWNE7r5pQzeupPHLXYnf+tsWIpgaEwfoj57GhlCjU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yOalCZbgn9runqnMrh5864iRCrrCe8OOz58mezkrIoM=</dsig:DigestValue>
+        <dsig:DigestValue>gtnqzKTE9dQGQXog7SjtQxmxnGiPKM8Aa9r+5d8yacU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -162,14 +162,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XMLManipulator.exe" size="927744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XMLManipulator.exe" size="926720">
       <assemblyIdentity name="XMLManipulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pt02N6F75jIP9bMnctfRe7yH4kgfdIt8/bEavuWyOKA=</dsig:DigestValue>
+        <dsig:DigestValue>9TFhqtrm1l2ir9STahVbjC16QZhzk3QjJWSmf39WwIY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

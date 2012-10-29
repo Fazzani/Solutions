@@ -64,3 +64,32 @@ C:\Users\Heni\Solutions GitHub\XMLManipulator\obj\Debug\XMLManipulator.pdb
 D:\Bins\bin xml manip\Debug\XMLManipulator.exe.config
 D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.exe
 D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.pdb
+D:\Bins\bin xml manip\Debug\DataXml\PatternModelUnivers.xml
+D:\Bins\bin xml manip\Debug\DataXml\Univers.xml
+D:\Bins\bin xml manip\Debug\XMLManipulator.exe.manifest
+D:\Bins\bin xml manip\Debug\XMLManipulator.application
+D:\Bins\bin xml manip\Debug\XMLManipulator.exe
+D:\Bins\bin xml manip\Debug\XMLManipulator.pdb
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.csprojResolveAssemblyReference.cache
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\BureauBlack.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\BureauBlue.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\ExpressionDark.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\ExpressionLight.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\LinearGradientStyle.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\ShinyBlue.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\ShinyRed.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Themes\WhistlerBlue.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\MainWindow.g.cs
+D:\RepoGitHub\XMLManipulator\obj\Debug\App.g.cs
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator_Content.g.cs
+D:\RepoGitHub\XMLManipulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator_MarkupCompile.cache
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator_MarkupCompile.lref
+D:\RepoGitHub\XMLManipulator\obj\Debug\App.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\Main.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\MainWindow.baml
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.g.resources
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.Properties.Resources.resources
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.csproj.GenerateResource.Cache
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.exe.manifest
+D:\RepoGitHub\XMLManipulator\obj\Debug\XMLManipulator.application

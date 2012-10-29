@@ -46,3 +46,28 @@ C:\Users\922261\Google Drive\Solutions .net\MvcApplication1\source\Selen.Wpf.Sys
 C:\Users\922261\Google Drive\Solutions .net\MvcApplication1\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.g.resources
 C:\Users\922261\Google Drive\Solutions .net\MvcApplication1\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.Properties.Resources.resources
 C:\Users\922261\Google Drive\Solutions .net\MvcApplication1\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.csproj.GenerateResource.Cache
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\bin\Debug\Selen.Wpf.SystemStyles.dll
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\bin\Debug\Selen.Wpf.SystemStyles.pdb
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\bin\Debug\Selen.Wpf.Core.dll
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\bin\Debug\WPFToolkit.Extended.dll
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\bin\Debug\Selen.Wpf.Core.pdb
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.csprojResolveAssemblyReference.cache
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\ButtonStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\ComboBoxStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\ContextMenuStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\DataGridStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\GroupBoxStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\ListBoxStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\MenuStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\MessageBoxStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\ScrollBarStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Styles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\TabControlStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\TextBoxStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\WindowStyles.baml
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles_MarkupCompile.cache
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.g.resources
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.Properties.Resources.resources
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.csproj.GenerateResource.Cache
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.dll
+D:\RepoGitHub\source\Selen.Wpf.SystemStyles\obj\Debug\Selen.Wpf.SystemStyles.pdb
