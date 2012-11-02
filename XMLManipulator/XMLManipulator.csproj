@@ -116,11 +116,18 @@
     <Compile Include="Converter\XmlElementConverter.cs" />
     <Compile Include="Converter\XMLElementCountConverter.cs" />
     <Compile Include="Converter\XmlPatternToBoolConverter.cs" />
+    <Compile Include="EditUC.xaml.cs">
+      <DependentUpon>EditUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Outils\ApplicationStaticValues.cs" />
     <Compile Include="Outils\DemoAttachedProps.cs" />
     <Compile Include="ViewModel\MainModelView.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Page Include="EditUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

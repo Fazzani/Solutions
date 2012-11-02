@@ -10,7 +10,7 @@
   <MENUPOSITION/>
   <TXTWELCOMEBYCAT display="1"/>
   <TITLEPAGE display="1" editable="1"/>
-  <XITI></XITI>
+  <XITI display="1" editable="1"/>
   <BLOCPARTENAIRE display="1" editable="1"/>
   <DESCRIPTIF display="1" editable="1"/>
   <MAINKEYWORDS/>

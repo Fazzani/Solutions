@@ -56,7 +56,27 @@
         </StackPanel>
         <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}"/>
         <GroupBox Header="Informations" Grid.Row="1" Grid.Column="2" >
-            <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerText, Mode=TwoWay}" />
+            <StackPanel >
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).Attributes, Mode=OneWay}">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Valeur" Width="SizeToCells" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Name="txtValueGrid" Text="{Binding Value}" LostFocus="TxtValueGrid_LostFocus" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerText, Mode=TwoWay}" VerticalAlignment="Bottom" />
+            </StackPanel>
         </GroupBox>
     </Grid>
 </Controls:MetroWindow>

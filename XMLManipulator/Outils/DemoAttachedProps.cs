@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
+using System.Xml;
 
 namespace XMLManipulator.Outils
 {
@@ -28,7 +29,7 @@ namespace XMLManipulator.Outils
       var treeViewItem = SelectTreeViewItemForBinding(args.NewValue, treeView);
       if (treeViewItem != null)
         treeViewItem.IsSelected = true;
-
+      
       treeView.SelectedItemChanged += TreeViewItemChanged;
     }
 

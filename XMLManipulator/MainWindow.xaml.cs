@@ -39,6 +39,7 @@ namespace XMLManipulator
       {
         InitializeComponent();
         _universProvider = FindResource("Univers") as XmlDataProvider;
+
         this.Closing += MainWindow_Closing;
 
         Init();
@@ -77,6 +78,17 @@ namespace XMLManipulator
       {
         Properties.Settings.Default[ApplicationStaticValues.LastOpenedFilePath] = new Uri(_universProvider.Document.BaseURI).LocalPath;
         Properties.Settings.Default.Save();
+      }
+    }
+
+    private void TxtValueGrid_LostFocus(object sender, RoutedEventArgs e)
+    {
+      var txtbox = sender as TextBox;
+      if (txtbox.DataContext is XmlAttribute)
+      {
+        XmlAttribute xmlAttr = txtbox.DataContext as XmlAttribute;
+        if (!xmlAttr.Value.Equals(txtbox.Text))
+          xmlAttr.Value = txtbox.Text;
       }
     }
   }
