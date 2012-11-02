@@ -24,6 +24,8 @@
             <local:CommandParametersSearchConverter x:Key="CommandParametersSearchConverter" />
             <local:XMLElementCountConverter x:Key="XMLElementCountConverter" />
             <local:XmlPatternToBoolConverter x:Key="XmlPatternToBool" />
+            <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <local:XmlElementToVisibiltyConverter x:Key="XmlElementToVisibiltyConverter" />
             <XMLManipulator:DemoAttachedProps x:Key="DemoAttachedProps" />
             <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
         </ResourceDictionary>

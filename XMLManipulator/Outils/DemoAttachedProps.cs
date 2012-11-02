@@ -24,7 +24,7 @@ namespace XMLManipulator.Outils
       var treeView = d as TreeView;
       if (treeView == null)
         return;
-
+      //XmlElement
       treeView.SelectedItemChanged -= TreeViewItemChanged;
       var treeViewItem = SelectTreeViewItemForBinding(args.NewValue, treeView);
       if (treeViewItem != null)

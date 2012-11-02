@@ -112,7 +112,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converter\BoolToVisibilityConverter.cs" />
     <Compile Include="Converter\CommandParametersSearchConverter.cs" />
+    <Compile Include="Converter\XmlElementToVisibiltyConverter.cs" />
     <Compile Include="Converter\XmlElementConverter.cs" />
     <Compile Include="Converter\XMLElementCountConverter.cs" />
     <Compile Include="Converter\XmlPatternToBoolConverter.cs" />
