@@ -75,7 +75,7 @@
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
-                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}" Visibility="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).HasChildNodes, Converter={StaticResource BoolToVisibilityConverter}}"  >
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem), Mode=TwoWay}" Visibility="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).HasChildNodes, Converter={StaticResource BoolToVisibilityConverter}}"  >
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow">
                             <Setter Property="Visibility" Value="{Binding ., Converter={StaticResource XmlElementToVisibiltyConverter}}" />
@@ -89,16 +89,16 @@
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Valeur" Width="SizeToCells" IsReadOnly="True">
+                        <DataGridTemplateColumn Header="Valeur" Width="SizeToCells" IsReadOnly="False">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <TextBox Name="txtValueGrid" Text="{Binding InnerText}" />
+                                    <TextBox Name="txtValueGrid" Text="{Binding InnerText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
-                <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerText, Mode=TwoWay}" VerticalAlignment="Bottom" />
+                <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerXml, Mode=TwoWay}" VerticalAlignment="Bottom" />
             </StackPanel>
         </GroupBox>
     </Grid>
