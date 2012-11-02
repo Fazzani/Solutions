@@ -44,16 +44,15 @@
             </TextBox>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0">
-            <Button x:Name="Open" Command="{Binding OpenCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Open">
+            <Button x:Name="Open" Command="{Binding OpenCommand}" CommandParameter="{StaticResource Univers}" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Width="45" ToolTip="Open" Margin="1">
                 <Image Source="Images\open.png"></Image>
             </Button>
-            <Button x:Name="Save"  Command="{Binding SaveAsCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Save">
+            <Button x:Name="Save" Command="{Binding SaveAsCommand}" CommandParameter="{StaticResource Univers}" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Width="45" ToolTip="Save" Margin="1">
                 <Image Margin="2" Source="Images\save.png"></Image>
             </Button>
-            <Button x:Name="Refresh"  Command="{Binding SaveCommand}" CommandParameter="{StaticResource Univers}" Height="28" VerticalAlignment="Center" HorizontalAlignment="Right" Width="35" ToolTip="Refresh">
+            <Button x:Name="Refresh" Command="{Binding SaveCommand}" CommandParameter="{StaticResource Univers}" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Width="45" ToolTip="Refresh" Margin="1">
                 <Image Source="Images\refresh.png"></Image>
             </Button>
-
         </StackPanel>
         <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}"/>
         <GroupBox Header="Informations" Grid.Row="1" Grid.Column="2" >

@@ -22,34 +22,58 @@ using XMLManipulator.ViewModel;
 namespace XMLManipulator
 {
 
-  /// <summary>
-  /// Logique d'interaction pour MainWindow.xaml
-  /// </summary>
-  public partial class MainWindow
-  {
-    XmlDataProvider _universProvider;
-
-    public MainWindow()
+    /// <summary>
+    /// Logique d'interaction pour MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow
     {
-      try
-      {
-        InitializeComponent();
-        _universProvider = FindResource("Univers") as XmlDataProvider;
-        var xmlDocument = new XmlDocument();
+        /// <summary>
+        /// Provider Univers.Xml
+        /// </summary>
+        XmlDataProvider _universProvider;
 
-        if (Application.Current.Properties.Contains(ApplicationStaticValues.LastOpenedFilePath))
-        { //Application.Current.Properties.Add(ApplicationStaticValues.LastOpenedFilePath, ConfigurationManager.AppSettings["FileName"]);
+        public MainWindow()
+        {
+            try
+            {
+                InitializeComponent();
+                _universProvider = FindResource("Univers") as XmlDataProvider;
+                this.Closing += MainWindow_Closing;
 
-          xmlDocument.Load(Application.Current.Properties[ApplicationStaticValues.LastOpenedFilePath].ToString());
-          _universProvider.Document = xmlDocument;
+                Init();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
-      }
-      catch (Exception ex)
-      {
-        MessageBox.Show(ex.Message);
-      }
-    
-    }
 
-  }
+        /// <summary>
+        /// Init App
+        /// </summary>
+        void Init()
+        {
+            if (!string.IsNullOrEmpty(Properties.Settings.Default[ApplicationStaticValues.LastOpenedFilePath].ToString()))
+            { 
+                var xmlDocument = new XmlDocument();
+                string s = System.IO.Path.GetFullPath(Properties.Settings.Default[ApplicationStaticValues.LastOpenedFilePath].ToString());
+                xmlDocument.Load(s);
+                _universProvider.Document = xmlDocument;
+            }
+        }
+
+        /// <summary>
+        /// On Closing App
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (_universProvider != null && _universProvider.Document != null)
+            {
+                Properties.Settings.Default[ApplicationStaticValues.LastOpenedFilePath] = new Uri(_universProvider.Document.BaseURI).LocalPath;
+                Properties.Settings.Default.Save();
+            }
+        }
+    }
 }
