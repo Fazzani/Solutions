@@ -31,7 +31,6 @@ namespace XMLManipulator.ViewModel
       CreateDeleteCommand();
       CreateAddCommand();
       CreateOpenCommand();
-      CreateEditCommand();
     }
 
     #region Save Command
@@ -210,33 +209,6 @@ namespace XMLManipulator.ViewModel
     {
       XmlNode item = treeView.SelectedItem as XmlNode;
       item.ParentNode.AppendChild(item.OwnerDocument.CreateNode(XmlNodeType.Element, "DIMENSION_NODE", null));
-    }
-    #endregion
-
-    #region Edit Command
-
-    public ICommand EditCommand
-    {
-      get;
-      internal set;
-    }
-
-    private bool CanExecuteEditCommand(TreeView treeView)
-    {
-      return treeView != null && treeView.SelectedItem != null;
-    }
-
-    private void CreateEditCommand()
-    {
-      EditCommand = new RelayCommand<TreeView>(EditExecute, CanExecuteEditCommand);
-    }
-
-    public void EditExecute(TreeView treeView)
-    {
-      XmlNode item = treeView.SelectedItem as XmlNode;
-     // item.ParentNode.AppendChild(item.OwnerDocument.CreateNode(XmlNodeType.Element, "DIMENSION_NODE", null));
-      EditUC editControl = new EditUC();
-      editControl.Show();
     }
     #endregion
 
