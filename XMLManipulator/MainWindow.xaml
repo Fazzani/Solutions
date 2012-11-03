@@ -54,28 +54,10 @@
                 <Image Source="Images\refresh.png"></Image>
             </Button>
         </StackPanel>
-        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}"/>
-        <GroupBox Header="Informations" Grid.Row="1" Grid.Column="2" >
-            <StackPanel >
-                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).Attributes, Mode=OneWay}" Visibility="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).HasAttributes, Converter={StaticResource BoolToVisibilityConverter}}">
-                    <DataGrid.Columns>
-                        <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding Name}" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Valeur" Width="SizeToCells" IsReadOnly="True">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBox Name="txtValueGrid" Text="{Binding Value}" LostFocus="TxtValueGrid_LostFocus" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                    </DataGrid.Columns>
-                </DataGrid>
-                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem), Mode=TwoWay}" Visibility="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).HasChildNodes, Converter={StaticResource BoolToVisibilityConverter}}"  >
+        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" />
+        <TabControl Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}">
+            <TabItem Header="Properties" Selector.IsSelected="{Binding HasChildNodes,Mode=OneWay}" Visibility="{Binding HasChildNodes,Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ., Mode=TwoWay}">
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow">
                             <Setter Property="Visibility" Value="{Binding ., Converter={StaticResource XmlElementToVisibiltyConverter}}" />
@@ -98,8 +80,30 @@
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
-                <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).InnerXml, Mode=TwoWay}" VerticalAlignment="Bottom" />
-            </StackPanel>
-        </GroupBox>
+            </TabItem>
+            <TabItem Selector.IsSelected="{Binding HasAttributes,Mode=OneWay}" Header="Attributes" Visibility="{Binding HasAttributes,Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).Attributes, Mode=OneWay}" >
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Valeur" Width="SizeToCells" IsReadOnly="True">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Name="txtValueGrid" Text="{Binding Value}" LostFocus="TxtValueGrid_LostFocus" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Xml View">
+                <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding InnerXml, Mode=TwoWay}" />
+            </TabItem>
+        </TabControl>
     </Grid>
 </Controls:MetroWindow>
