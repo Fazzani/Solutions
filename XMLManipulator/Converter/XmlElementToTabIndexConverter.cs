@@ -9,19 +9,18 @@ using System.Xml;
 
 namespace XMLManipulator.Converter
 {
-    [ValueConversion(typeof(bool), typeof(Visibility))]
-    public sealed class BoolToVisibilityConverter : IValueConverter
+    public sealed class XmlElementToTabIndexConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
-            if (value is bool)
-                return (bool)value ? Visibility.Visible : Visibility.Collapsed;
             if (value is XmlElement)
             {
                 XmlElement elem = value as XmlElement;
-                return elem.HasChildNodes && !(elem.ChildNodes.Count == 1 && elem.ChildNodes[0].NodeType != XmlNodeType.Element) ? Visibility.Visible : Visibility.Collapsed;
+                if (elem.HasAttributes)
+                    return 1;
+                return elem.HasChildNodes && !(elem.ChildNodes.Count == 1 && elem.ChildNodes[0].NodeType != XmlNodeType.Element) ? 0 : 2;
             }
-            return Visibility.Collapsed;
+            return 2;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

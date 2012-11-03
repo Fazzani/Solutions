@@ -55,8 +55,8 @@
             </Button>
         </StackPanel>
         <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" />
-        <TabControl Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}">
-            <TabItem Header="Properties" Selector.IsSelected="{Binding HasChildNodes,Mode=OneWay}" Visibility="{Binding HasChildNodes,Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
+        <TabControl SelectedIndex="{Binding .,Mode=OneWay,Converter={StaticResource XmlElementToTabIndexConverter}}" Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}">
+            <TabItem Header="Properties">
                 <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ., Mode=TwoWay}">
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow">
@@ -81,7 +81,7 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Selector.IsSelected="{Binding HasAttributes,Mode=OneWay}" Header="Attributes" Visibility="{Binding HasAttributes,Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
+            <TabItem Header="Attributes" >
                 <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).Attributes, Mode=OneWay}" >
                     <DataGrid.Columns>
                         <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True">
@@ -101,7 +101,7 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Xml View">
+            <TabItem  Header="Xml View">
                 <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding InnerXml, Mode=TwoWay}" />
             </TabItem>
         </TabControl>

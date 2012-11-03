@@ -38,35 +38,7 @@
         </StackPanel>
     </DataTemplate>
     <DataTemplate DataType="XITI">
-        <StackPanel Orientation="Horizontal">
-            <Label Content="{Binding Name}"/>
-            <StackPanel Orientation="Vertical">
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="Niveau2"/>
-                    <TextBox Text="{Binding XPath=@Niveau2,  Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="ShpId"/>
-                    <TextBox Text="{Binding XPath=@ShpId,  Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="ClassId"/>
-                    <TextBox Text="{Binding XPath=@ClassId,  Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="PremId"/>
-                    <TextBox Text="{Binding XPath=@PremId,  Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="ComparId"/>
-                    <TextBox Text="{Binding XPath=@ComparId,  Mode=TwoWay}"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="ExpDet"/>
-                    <TextBox Text="{Binding XPath=@ExpDet,  Mode=TwoWay}"/>
-                </StackPanel>
-            </StackPanel>
-        </StackPanel>
+        <Label Content="{Binding Name}"/>
     </DataTemplate>
     <DataTemplate DataType="MARQUE">
         <TextBox Text="{Binding XPath=., StringFormat='Marque : {0}', Mode=TwoWay}"/>
