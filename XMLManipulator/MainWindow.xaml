@@ -106,7 +106,7 @@
             </TabItem>
         </TabControl>
         <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" >
-            <TextBlock Name="txtFilePath" Text="{Binding FilePath}"/>
+            <TextBlock Name="txtFilePath" Text="{Binding FilePath, StringFormat='File Path : {0}'}" HorizontalAlignment="Left" Margin="5,5,0,0" />
         </StackPanel>
     </Grid>
 </Controls:MetroWindow>
