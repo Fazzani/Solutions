@@ -2,10 +2,10 @@
                     xmlns:Root="clr-namespace:XMLManipulator"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <XmlDataProvider x:Key="Univers" XPath="DIMENSION_NODE" />
-    <XmlDataProvider x:Key="PatternModelUnivers" XPath="DIMENSION_NODE" />
+    <!--<XmlDataProvider x:Key="PatternModelUnivers" XPath="DIMENSION_NODE" />-->
     <HierarchicalDataTemplate DataType="DIMENSION_NODE" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal" ToolTip="{Binding XPath=DESCRIPTIF}">
-            <Image Name="icon" Source="/Images/Cat.jpg"/>
+            <Image Name="icon" Source="/Images/dim.png"/>
             <Label Content="Dim : " Foreground="#FF5F94D4"/>
             <TextBlock Text="{Binding XPath=SYN}" />
             <Separator Width="10" Height="10" />
@@ -15,14 +15,14 @@
     <HierarchicalDataTemplate DataType="MAGASINS" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal">
             <!--<Setter Property="HeaderTemplate" Value="{StaticResource editableName}" />-->
-            <Image Name="icon" Source="/Images/Magasin.png"/>
-            <TextBlock Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
+            <Image Name="icon" Source="/Images/mag.png" Width="20" Height="20" Margin="2"/>
+            <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
         </StackPanel>
     </HierarchicalDataTemplate>
     <HierarchicalDataTemplate DataType="TOPMARQUES" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal">
-            <Image Name="icon" Source="/Images/Marque.jpg"/>
-            <TextBlock Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
+            <Image Name="icon" Source="/Images/marq.png" Width="20" Height="20" Margin="2"/>
+            <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
         </StackPanel>
     </HierarchicalDataTemplate>
     <DataTemplate DataType="BLOCPARTENAIRE">

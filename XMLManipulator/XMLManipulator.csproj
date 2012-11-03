@@ -212,13 +212,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\marq.png" />
+    <Resource Include="Images\mag.png" />
     <Resource Include="Images\open.png" />
     <Resource Include="Images\refresh.png" />
     <Resource Include="Images\save.png" />
     <Resource Include="Images\loop.gif" />
-    <Resource Include="Images\Marque.jpg" />
     <Resource Include="Images\Cat.jpg" />
-    <Resource Include="Images\Magasin.png" />
+    <Resource Include="Images\dim.png" />
     <Resource Include="MVVMLight.Nuget.Readme.txt" />
     <Content Include="DataXml\PatternModelUnivers.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
