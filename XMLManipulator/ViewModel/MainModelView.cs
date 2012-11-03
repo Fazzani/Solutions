@@ -22,6 +22,16 @@ namespace XMLManipulator.ViewModel
   /// </summary>
   public class MainModelView : ViewModelBase
   {
+      string _filePath;
+      public string FilePath
+      {
+          get { return this._filePath; }
+          set
+          {
+              this._filePath = value;
+              this.RaisePropertyChanged(() => this.FilePath);
+          }
+      }
 
     public MainModelView()
     {
@@ -81,7 +91,11 @@ namespace XMLManipulator.ViewModel
       Microsoft.Win32.SaveFileDialog sfd = new Microsoft.Win32.SaveFileDialog();
 
       if ((bool)sfd.ShowDialog())
-        xml.Document.Save(sfd.FileName);
+      {
+          xml.Document.Save(sfd.FileName);
+          FilePath = sfd.FileName;
+      }
+
     }
     #endregion
 
@@ -115,10 +129,7 @@ namespace XMLManipulator.ViewModel
             xml.Document = new XmlDocument();
           xml.Document.Load(openDialog.FileName);
           xml.Refresh();
-          if (!Application.Current.Properties.Contains(ApplicationStaticValues.LastOpenedFilePath))
-            Application.Current.Properties.Add(ApplicationStaticValues.LastOpenedFilePath, openDialog.FileName);
-          else
-            Application.Current.Properties[ApplicationStaticValues.LastOpenedFilePath] = openDialog.FileName;
+          FilePath = openDialog.FileName;
         }
       }
       catch (Exception ex)

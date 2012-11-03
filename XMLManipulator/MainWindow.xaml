@@ -105,5 +105,8 @@
                 <TextBox Name="txtInfo" AcceptsReturn="True" TextWrapping="WrapWithOverflow" Text="{Binding InnerXml, Mode=TwoWay}" />
             </TabItem>
         </TabControl>
+        <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" >
+            <TextBlock Name="txtFilePath" Text="{Binding FilePath}"/>
+        </StackPanel>
     </Grid>
 </Controls:MetroWindow>

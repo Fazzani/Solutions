@@ -63,6 +63,7 @@ namespace XMLManipulator
         {
           xmlDocument.Load(filePath);
           _universProvider.Document = xmlDocument;
+          new ViewModelLocator().MainMV.FilePath = filePath;
         }
       }
     }
