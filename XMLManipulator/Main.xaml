@@ -47,7 +47,20 @@
     <DataTemplate x:Key="editableName">
         <TextBox Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=HeaderedItemsControl}, Path=(Header).InnerText}"/>
     </DataTemplate>
-
+<!-- Gestion des attributs-->
+    <DataTemplate x:Key="attriElem">
+        <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
+            <Label Content="{Binding Name}" Width="100"/>
+            <TextBox Text="{Binding  Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" MinWidth="100"/>
+        </StackPanel>
+    </DataTemplate>
+    <DataTemplate x:Key="TextTemplate">
+        <TextBox Name="txtValueGrid" Text="{Binding InnerText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+    </DataTemplate>
+    <DataTemplate x:Key="XmlElementTemplate">
+        <ListView ItemsSource="{Binding Attributes}" ItemTemplate="{StaticResource attriElem}"></ListView>
+    </DataTemplate>
+<!-- Context Menu of TreeView-->
     <ContextMenu x:Key="FolderContext" StaysOpen="true" SnapsToDevicePixels="True" Margin="2,0,0,0">
         <MenuItem Header="Add" Command="{Binding DataContext.AddCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Root:MainWindow}}}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=TreeView}}"/>
         <MenuItem Header="Rename" />

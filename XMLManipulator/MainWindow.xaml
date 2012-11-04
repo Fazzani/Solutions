@@ -14,18 +14,6 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Main.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <DataTemplate x:Key="attriElem">
-                <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
-                    <Label Content="{Binding Name}" Width="100"/>
-                    <TextBox Text="{Binding  Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" MinWidth="100"/>
-                </StackPanel>
-            </DataTemplate>
-            <DataTemplate x:Key="TextTemplate">
-                <TextBox Name="txtValueGrid" Text="{Binding InnerText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
-            </DataTemplate>
-            <DataTemplate x:Key="XmlElementTemplate">
-                <ListView ItemsSource="{Binding Attributes}" ItemTemplate="{StaticResource attriElem}"></ListView>
-            </DataTemplate>
             <o:DTXmlElementSelector TextTemplate="{StaticResource TextTemplate}" XmlNodesTemplate="{StaticResource XmlElementTemplate}" x:Key="tmpSelector"/>
         </ResourceDictionary>
     </Control.Resources>
