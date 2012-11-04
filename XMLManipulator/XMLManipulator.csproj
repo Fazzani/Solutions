@@ -127,6 +127,7 @@
     </Compile>
     <Compile Include="Outils\ApplicationStaticValues.cs" />
     <Compile Include="Outils\DemoAttachedProps.cs" />
+    <Compile Include="Outils\DTXmlElementSelector.cs" />
     <Compile Include="ViewModel\MainModelView.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />

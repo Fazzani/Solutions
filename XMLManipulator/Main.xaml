@@ -35,8 +35,8 @@
             <TextBox Text="{Binding XPath=.,  Mode=TwoWay}"/>
         </StackPanel>
     </DataTemplate>
-    <DataTemplate DataType="XITI">
-        <Label Content="{Binding Name}"/>
+    <DataTemplate DataType="XITI" x:Key="xiti">
+        <Label Content="{Binding ./Name}"/>
     </DataTemplate>
     <DataTemplate DataType="MARQUE">
         <TextBox Text="{Binding XPath=., StringFormat='Marque : {0}', Mode=TwoWay}"/>
