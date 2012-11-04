@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DIMENSION_NODE display="1" editable="0">
-  <DVAL_ID display="1" editable="0" />
-  <SYN display="1" editable="1"/>
-  <POSITION display="1"/>
-  <TITLEPAGE display="1" editable="1"/>
+  <DVAL_ID display="0" editable="0" />
+  <SYN display="0" editable="0"/>
+  <POSITION display="0"/>
+  <TITLEPAGE display="0" editable="0"/>
   <TITLEH1/>
   <FIRSTMENULINK/>
   <MENUCSSCLASS/>
   <MENUPOSITION/>
-  <TXTWELCOMEBYCAT display="1"/>
-  <TITLEPAGE display="1" editable="1"/>
-  <XITI display="1" editable="1"/>
-  <BLOCPARTENAIRE display="1" editable="1"/>
-  <DESCRIPTIF display="1" editable="1"/>
+  <TXTWELCOMEBYCAT display="0"/>
+  <TITLEPAGE display="0" editable="0"/>
+  <XITI display="0" editable="0"/>
+  <BLOCPARTENAIRE display="0" editable="0"/>
+  <DESCRIPTIF display="0" editable="0"/>
   <MAINKEYWORDS/>
   <OTHERSKEYWORDS/>
   <MENUCSSCLASS/>
@@ -21,13 +21,13 @@
   <BonsPlansSettings/>
   <HomeSettings/>
   <TOPMARQUES display="1" editable="0">
-    <MARQUE display="1" editable="1"/>
+    <MARQUE display="0" editable="0"/>
   </TOPMARQUES>
   <MAGASINS display="1" editable="0">
-    <MAGASIN display="1" editable="1">
-      <TITLE display="1" editable="1"/>
-      <POSITION display="1" editable="0"/>
-      <LINK display="1" editable="0"/>
+    <MAGASIN display="0" editable="0">
+      <TITLE display="0" editable="0"/>
+      <POSITION display="0" editable="0"/>
+      <LINK display="0" editable="0"/>
     </MAGASIN>
   </MAGASINS>
 </DIMENSION_NODE>

@@ -1,8 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:Root="clr-namespace:XMLManipulator"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <XmlDataProvider x:Key="Univers" XPath="DIMENSION_NODE" />
-    <!--<XmlDataProvider x:Key="PatternModelUnivers" XPath="DIMENSION_NODE" />-->
+    <XmlDataProvider x:Key="Univers"  />
     <HierarchicalDataTemplate DataType="DIMENSION_NODE" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal" ToolTip="{Binding XPath=DESCRIPTIF}">
             <Image Name="icon" Source="/Images/dim.png"/>
@@ -14,7 +13,6 @@
     </HierarchicalDataTemplate>
     <HierarchicalDataTemplate DataType="MAGASINS" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal">
-            <!--<Setter Property="HeaderTemplate" Value="{StaticResource editableName}" />-->
             <Image Name="icon" Source="/Images/mag.png" Width="20" Height="20" Margin="2"/>
             <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
         </StackPanel>
