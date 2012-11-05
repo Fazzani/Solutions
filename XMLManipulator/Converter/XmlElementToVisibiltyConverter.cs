@@ -20,7 +20,7 @@ namespace XMLManipulator.Converter
       if (value is XmlElement)
       {
         XmlElement elem = value as XmlElement;
-        return  elem.InnerText.Equals(elem.InnerXml) ? _trueValue : _falseValue;
+        return elem.HasChildNodes && elem.Name == elem.OwnerDocument.DocumentElement.Name ? _falseValue : _trueValue;
       }
       return _falseValue;
     }
