@@ -11,7 +11,6 @@ using System.Windows.Input;
 using System.Xml;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
-using Tools;
 using Xceed.Wpf.Toolkit;
 using XMLManipulator.Outils;
 using System.Windows.Shell;
