@@ -3,25 +3,31 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <XmlDataProvider x:Key="Univers"  />
     <HierarchicalDataTemplate DataType="DIMENSION_NODE" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
-        <StackPanel Orientation="Horizontal" ToolTip="{Binding XPath=DESCRIPTIF}">
-            <Image Name="icon" Source="/Images/dim.png"/>
-            <Label Content="Dim : " Foreground="#FF5F94D4"/>
-            <TextBlock Text="{Binding XPath=SYN}" />
-            <Separator Width="10" Height="10" />
-            <TextBlock Text="{Binding XPath=DVAL_ID/@ID, StringFormat='({0})'}"/>
-        </StackPanel>
+        <Border CornerRadius="3" BorderBrush="#FF718699" Background="RoyalBlue"  BorderThickness="2"  Margin="1" Padding="1">
+            <StackPanel Orientation="Horizontal" ToolTip="{Binding XPath=DESCRIPTIF}">
+                <Image Name="icon" Source="/Images/dim.png"/>
+                <Label Content="Dim : " Foreground="#FF5FD4C9"/>
+                <TextBlock Text="{Binding XPath=SYN}" TextAlignment="Center" VerticalAlignment="Center"/>
+                <Separator Width="10" Height="5" />
+                <TextBlock Text="{Binding XPath=DVAL_ID/@ID, StringFormat='({0})'}" TextAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
     </HierarchicalDataTemplate>
     <HierarchicalDataTemplate DataType="MAGASINS" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
-        <StackPanel Orientation="Horizontal">
-            <Image Name="icon" Source="/Images/mag.png" Width="20" Height="20" Margin="2"/>
-            <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
-        </StackPanel>
+        <Border CornerRadius="3" BorderBrush="CadetBlue" Background="#FFBF9E2E"  BorderThickness="1"  Margin="2" Padding="2" >
+            <StackPanel Orientation="Horizontal">
+                <Image Name="icon" Source="/Images/mag.png" Width="20" Height="20" Margin="2"/>
+                <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
+            </StackPanel>
+        </Border>
     </HierarchicalDataTemplate>
     <HierarchicalDataTemplate  DataType="TOPMARQUES" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
-        <StackPanel Orientation="Horizontal">
-            <Image Name="icon" Source="/Images/marq.png" Width="20" Height="20" Margin="2"/>
-            <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
-        </StackPanel>
+        <Border CornerRadius="3" BorderBrush="RoyalBlue" Background="#FFB942B9"  BorderThickness="1"  Margin="2" Padding="2" >
+            <StackPanel Orientation="Horizontal">
+                <Image Name="icon" Source="/Images/marq.png" Width="20" Height="20" Margin="2"/>
+                <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
+            </StackPanel>
+        </Border>
     </HierarchicalDataTemplate>
     <DataTemplate DataType="XITI" x:Key="xiti">
         <Label Content="{Binding ./Name}"/>
@@ -79,13 +85,6 @@
     </ContextMenu>
 
     <Style TargetType="{x:Type TreeViewItem}">
-        <Style.Resources>
-            <LinearGradientBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" EndPoint="0.504,1.5" StartPoint="0.504,0.03">
-                <GradientStop Offset='0' Color='#3F3F46' />
-                <GradientStop Color='#007ACC' Offset='0.4' />
-                <GradientStop Offset='0.8' Color='#3F3F46' />
-            </LinearGradientBrush>
-        </Style.Resources>
         <Setter Property="ContextMenu" Value="{StaticResource FolderContext}"/>
         <Setter Property="IsExpanded" Value="{Binding ., Converter={StaticResource IsRootConverter}}"/>
         <Setter Property="IsSelected" Value="{Binding ., Converter={StaticResource IsRootConverter}}"/>
