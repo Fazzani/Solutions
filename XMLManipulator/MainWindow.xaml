@@ -57,7 +57,8 @@
                 <Image Source="Images\save.png"></Image>
             </Button>
         </StackPanel>
-        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" AllowDrop="True"/>
+        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" AllowDrop="True"  PreviewMouseLeftButtonDown="Tree_PreviewMouseLeftButtonDown"
+      PreviewMouseMove="Tree_MouseMove"      Drop="DropTree_Drop"  DragEnter="DropTree_DragEnter" />
         <TabControl SelectedIndex="{Binding .,Mode=OneWay,Converter={StaticResource XmlElementToTabIndexConverter}}" Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}" AllowDrop="False" Focusable="False">
             <TabItem Header="Properties" >
                 <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ., Mode=TwoWay}" SelectionMode="Single" RowDetailsVisibilityMode="Collapsed" SelectionUnit="FullRow">

@@ -97,5 +97,77 @@ namespace XMLManipulator
                     xmlAttr.Value = txtbox.Text;
             }
         }
+
+        #region Drag And Drop
+        private Point startPoint;
+
+        private void Tree_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            startPoint = e.GetPosition(null);
+        }
+
+        private void Tree_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                var mousePos = e.GetPosition(null);
+                var diff = startPoint - mousePos;
+
+                if (Math.Abs(diff.X) > SystemParameters.MinimumHorizontalDragDistance
+                    || Math.Abs(diff.Y) > SystemParameters.MinimumVerticalDragDistance)
+                {
+                    var treeView = sender as TreeView;
+                    var treeViewItem =
+                        FindAnchestor<TreeViewItem>((DependencyObject)e.OriginalSource);
+
+                    if (treeView == null || treeViewItem == null)
+                        return;
+
+                    var xmlElem = treeView.SelectedItem as XmlElement;
+                    if (xmlElem == null)
+                        return;
+
+                    var dragData = new DataObject(xmlElem);
+                    DragDrop.DoDragDrop(treeViewItem, dragData, DragDropEffects.Move);
+                }
+            }
+        }
+
+        private void DropTree_DragEnter(object sender, DragEventArgs e)
+        {
+            if (!e.Data.GetDataPresent(typeof(XmlElement)))
+                e.Effects = DragDropEffects.None;
+        }
+
+        private void DropTree_Drop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(typeof(XmlElement)))
+            {
+                var xmlElemOrigin = e.Data.GetData(typeof(XmlElement)) as XmlElement;
+                var treeViewItem = FindAnchestor<TreeViewItem>((DependencyObject)e.OriginalSource);
+
+                var dropTarget = treeViewItem.Header as XmlElement;
+
+                if (dropTarget == null || xmlElemOrigin == null || !xmlElemOrigin.Name.Equals(dropTarget.Name))
+                    return;
+                dropTarget.AppendChild(xmlElemOrigin);
+                treeViewItem.IsExpanded = true;
+                treeViewItem.IsSelected = true;
+            }
+        }
+
+        private static T FindAnchestor<T>(DependencyObject current) where T : DependencyObject
+        {
+            do
+            {
+                if (current is T)
+                    return (T)current;
+                current = VisualTreeHelper.GetParent(current);
+            }
+            while (current != null);
+            return null;
+        }
+
+        #endregion
     }
 }
