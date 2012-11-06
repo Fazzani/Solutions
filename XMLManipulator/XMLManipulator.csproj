@@ -117,6 +117,7 @@
     </ApplicationDefinition>
     <Compile Include="Converter\BoolToVisibilityConverter.cs" />
     <Compile Include="Converter\CommandParametersSearchConverter.cs" />
+    <Compile Include="Converter\IsRootConverter.cs" />
     <Compile Include="Converter\XmlElementToTabIndexConverter.cs" />
     <Compile Include="Converter\XmlElementToVisibiltyConverter.cs" />
     <Compile Include="Converter\XmlElementConverter.cs" />

@@ -27,6 +27,7 @@
             <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
             <local:XmlElementToVisibiltyConverter x:Key="XmlElementToVisibiltyConverter" />
             <local:XmlElementToTabIndexConverter x:Key="XmlElementToTabIndexConverter" />
+            <local:IsRootConverter x:Key="IsRootConverter" />
             <XMLManipulator:DemoAttachedProps x:Key="DemoAttachedProps" />
             <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
         </ResourceDictionary>

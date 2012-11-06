@@ -22,6 +22,8 @@ namespace XMLManipulator.Outils
             if (cell.DataContext is XmlElement)
             {
                 XmlElement elem = cell.DataContext as XmlElement;
+                if(App.Current.MainWindow.Resources.Contains(elem.Name.ToUpperInvariant()))
+                    return App.Current.MainWindow.Resources[elem.Name] as DataTemplate;
                 return string.IsNullOrEmpty(elem.InnerText) && elem.InnerText.Equals(elem.InnerXml) && elem.HasAttributes ? XmlNodesTemplate : TextTemplate;
             }
             return TextTemplate;

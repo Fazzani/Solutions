@@ -17,37 +17,25 @@
             <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
         </StackPanel>
     </HierarchicalDataTemplate>
-    <HierarchicalDataTemplate DataType="TOPMARQUES" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
+    <HierarchicalDataTemplate  DataType="TOPMARQUES" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
         <StackPanel Orientation="Horizontal">
             <Image Name="icon" Source="/Images/marq.png" Width="20" Height="20" Margin="2"/>
             <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
         </StackPanel>
     </HierarchicalDataTemplate>
-    <DataTemplate DataType="BLOCPARTENAIRE">
-        <StackPanel Orientation="Horizontal">
-            <Label Content="{Binding Name}"/>
-            <TextBox Text="{Binding XPath=.,  Mode=TwoWay}"/>
-        </StackPanel>
-    </DataTemplate>
-    <DataTemplate DataType="DESCRIPTIF">
-        <StackPanel Orientation="Horizontal">
-            <Label Content="{Binding Name}"/>
-            <TextBox Text="{Binding XPath=.,  Mode=TwoWay}"/>
-        </StackPanel>
-    </DataTemplate>
     <DataTemplate DataType="XITI" x:Key="xiti">
         <Label Content="{Binding ./Name}"/>
     </DataTemplate>
-    <DataTemplate DataType="MARQUE">
-        <TextBox Text="{Binding XPath=., StringFormat='Marque : {0}', Mode=TwoWay}"/>
+    <DataTemplate x:Key="MARQUE" DataType="MARQUE">
+        <TextBox Text="{Binding XPath=., Mode=TwoWay}"/>
     </DataTemplate>
-    <DataTemplate DataType="MAGASIN">
-        <TextBox Text="{Binding XPath=TITLE, StringFormat='Magasin : {0}', Mode=TwoWay}" />
+    <DataTemplate x:Key="MAGASIN" DataType="MAGASIN">
+        <TextBox Text="{Binding XPath=TITLE, Mode=TwoWay}" />
     </DataTemplate>
     <DataTemplate x:Key="editableName">
         <TextBox Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=HeaderedItemsControl}, Path=(Header).InnerText}"/>
     </DataTemplate>
-<!-- Gestion des attributs-->
+    <!-- Gestion des attributs-->
     <DataTemplate x:Key="attriElem">
         <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
             <Label Content="{Binding Name}" Width="100"/>
@@ -55,12 +43,30 @@
         </StackPanel>
     </DataTemplate>
     <DataTemplate x:Key="TextTemplate">
-        <TextBox Name="txtValueGrid" Text="{Binding InnerText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Name="txtValueGrid" Text="{Binding InnerText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" Height="auto"/>
     </DataTemplate>
     <DataTemplate x:Key="XmlElementTemplate">
         <ListView ItemsSource="{Binding Attributes}" ItemTemplate="{StaticResource attriElem}"></ListView>
     </DataTemplate>
-<!-- Context Menu of TreeView-->
+    <HierarchicalDataTemplate x:Key="TOPMARQUES" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="icon" Source="/Images/marq.png" Width="20" Height="20" Margin="2"/>
+                <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Marques ({0})'}" />
+            </StackPanel>
+            <ListView ItemsSource="{Binding}" ItemTemplate="{StaticResource MARQUE}"/>
+        </StackPanel>
+    </HierarchicalDataTemplate>
+    <HierarchicalDataTemplate x:Key="MAGASINS" ItemsSource="{Binding XPath=*, Mode=TwoWay}">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="icon" Source="/Images/mag.png" Width="20" Height="20" Margin="2"/>
+                <TextBlock FontWeight="Bold" Text="{Binding Converter={StaticResource XMLElementCountConverter}, StringFormat='Magasins ({0})'}" />
+            </StackPanel>
+            <ListView ItemsSource="{Binding}" ItemTemplate="{StaticResource MAGASIN}"/>
+        </StackPanel>
+    </HierarchicalDataTemplate>
+    <!-- Context Menu of TreeView-->
     <ContextMenu x:Key="FolderContext" StaysOpen="true" SnapsToDevicePixels="True" Margin="2,0,0,0">
         <MenuItem Header="Add" Command="{Binding DataContext.AddCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Root:MainWindow}}}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=TreeView}}"/>
         <MenuItem Header="Rename" />
@@ -81,6 +87,8 @@
             </LinearGradientBrush>
         </Style.Resources>
         <Setter Property="ContextMenu" Value="{StaticResource FolderContext}"/>
+        <Setter Property="IsExpanded" Value="{Binding ., Converter={StaticResource IsRootConverter}}"/>
+        <Setter Property="IsSelected" Value="{Binding ., Converter={StaticResource IsRootConverter}}"/>
         <Setter Property="Visibility" Value="{Binding .,Converter={StaticResource XmlPatternToBool}}"/>
         <!--<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>-->
         <Setter Property="FontWeight" Value="Normal" />

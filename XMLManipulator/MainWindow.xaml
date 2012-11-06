@@ -20,7 +20,7 @@
     <Grid RenderTransformOrigin="0.503,0.384">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="540" />
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="5"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -28,7 +28,7 @@
             <RowDefinition Height="200*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
-        <GridSplitter Width="2" Background="Gray" Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch" ResizeDirection="Columns" HorizontalAlignment="Center"/>
+        <GridSplitter Width="5" Background="Gray" Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch" ResizeDirection="Columns" HorizontalAlignment="Center"/>
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="3" VerticalAlignment="Top" Grid.Column="0" Height="49" HorizontalAlignment="Right" Margin="0,0,10,0">
             <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Style="{StaticResource SearchTextBox}">
                 <i:Interaction.Triggers>
@@ -56,28 +56,28 @@
                 <Image Source="Images\refresh.png"></Image>
             </Button>
         </StackPanel>
-        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" />
-        <TabControl SelectedIndex="{Binding .,Mode=OneWay,Converter={StaticResource XmlElementToTabIndexConverter}}" Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}">
-            <TabItem Header="Properties">
-                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ., Mode=TwoWay}" >
+        <TreeView x:Name="trvUnivers" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Source={StaticResource Univers}, XPath=*}" XMLManipulator:DemoAttachedProps.SelectedItem="{x:Null}" AllowDrop="True"/>
+        <TabControl SelectedIndex="{Binding .,Mode=OneWay,Converter={StaticResource XmlElementToTabIndexConverter}}" Grid.Row="1" Grid.Column="2" DataContext="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem)}" AllowDrop="False" Focusable="False">
+            <TabItem Header="Properties" >
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ., Mode=TwoWay}" SelectionMode="Single" RowDetailsVisibilityMode="Collapsed" SelectionUnit="FullRow">
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow">
                             <Setter Property="Visibility" Value="{Binding ., Converter={StaticResource XmlElementToVisibiltyConverter}}" />
                         </Style>
                     </DataGrid.RowStyle>
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True" >
+                        <DataGridTemplateColumn Header="Propriété"  Width="SizeToCells" IsReadOnly="True">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="{Binding Name}" />
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn  Header="Valeur" Width="SizeToCells" IsReadOnly="False" CellTemplateSelector="{StaticResource tmpSelector}"/>
+                        <DataGridTemplateColumn Width="*"  Header="Valeur" IsReadOnly="False" CellTemplateSelector="{StaticResource tmpSelector}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Attributes" >
+            <TabItem Header="Attributes">
                 <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding ElementName=trvUnivers, Path= (XMLManipulator:DemoAttachedProps.SelectedItem).Attributes, Mode=OneWay}" >
                     <DataGrid.Columns>
                         <DataGridTemplateColumn Header="Propriété" Width="SizeToCells" IsReadOnly="True">

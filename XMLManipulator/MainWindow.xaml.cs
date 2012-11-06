@@ -41,7 +41,6 @@ namespace XMLManipulator
         _universProvider = FindResource("Univers") as XmlDataProvider;
 
         this.Closing += MainWindow_Closing;
-
         Init();
       }
       catch (Exception ex)
@@ -64,6 +63,7 @@ namespace XMLManipulator
           xmlDocument.Load(filePath);
           _universProvider.Document = xmlDocument;
           new ViewModelLocator().MainMV.FilePath = filePath;
+         
         }
       }
     }

@@ -8,6 +8,7 @@ namespace XMLManipulator.Outils
   public class DemoAttachedProps
   {
     public static DependencyProperty SelectedItemProperty = DependencyProperty.RegisterAttached("SelectedItem", typeof(object), typeof(DemoAttachedProps), new PropertyMetadata(new object(), OnSelectedItemChanged));
+    static object _newValue;
 
     public static object GetSelectedItem(TreeView treeView)
     {
@@ -24,13 +25,21 @@ namespace XMLManipulator.Outils
       var treeView = d as TreeView;
       if (treeView == null)
         return;
-      //XmlElement
-      treeView.SelectedItemChanged -= TreeViewItemChanged;
-      var treeViewItem = SelectTreeViewItemForBinding(args.NewValue, treeView);
-      if (treeViewItem != null)
-        treeViewItem.IsSelected = true;
-      
-      treeView.SelectedItemChanged += TreeViewItemChanged;
+      _newValue = args.NewValue;
+      treeView.Loaded += treeView_Loaded;
+    }
+
+    static void treeView_Loaded(object sender, RoutedEventArgs e)
+    {
+        
+        var treeView = sender as TreeView;
+
+        treeView.SelectedItemChanged -= TreeViewItemChanged;
+        var treeViewItem = SelectTreeViewItemForBinding(_newValue, treeView);
+        if (treeViewItem != null)
+            treeViewItem.IsSelected = true;
+
+        treeView.SelectedItemChanged += TreeViewItemChanged;
     }
 
     private static void TreeViewItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
