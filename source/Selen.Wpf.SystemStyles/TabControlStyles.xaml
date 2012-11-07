@@ -61,6 +61,9 @@
                                                                 <Setter Property="Background" Value="{StaticResource CloseButtonBackgroundHighlighted}" />
                                                                 <Setter TargetName="ButtonPath" Property="Stroke" Value="{StaticResource CloseButtonStrokeHighlighted}"/>
                                                             </Trigger>
+                                                            <Trigger Property="TabControl.AllowDrop" Value="False">
+                                                                <Setter Property="Visibility" Value="Hidden"/>
+                                                            </Trigger>
                                                             <Trigger Property="IsPressed" Value="true">
                                                                 <Setter Property="Background" Value="{StaticResource CloseButtonBackgroundPressed}"/>
                                                                 <Setter TargetName="ButtonPath" Property="Stroke" Value="{StaticResource CloseButtonStroke}"/>
