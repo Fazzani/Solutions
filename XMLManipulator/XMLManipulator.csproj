@@ -235,6 +235,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Todo.txt" />
     <Resource Include="Images\save_as.png" />
     <Resource Include="marq.ico" />
     <Resource Include="Images\marq.png" />

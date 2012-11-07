@@ -1,0 +1,5 @@
+﻿- Les commits Tfs
+- Affichage d'un arbre
+- Ajout du noeuds avec des suggestions de Nom
+- Ajout dans le template du Header TreeViewItem d'un bouton supprimer
+- Versionning du fichier
