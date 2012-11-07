@@ -53,8 +53,7 @@ namespace GuiCssOptimizer
       if (Model == null)
         Model = new CssOptimizerModel();
 
-      Action a = async () => { CssOptimizer.CssOptimizer.OptimizeSite(Model, _current); };
-      Task.Run(a);
+      Task.Run(() => CssOptimizer.CssOptimizer.OptimizeSite(Model, _current));
     }
 
     void CssOptimizer_OnTreamentComplete(object sender, EventArgs e)
