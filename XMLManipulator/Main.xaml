@@ -92,12 +92,11 @@
         <!--<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>-->
         <Setter Property="FontWeight" Value="Normal" />
         <Setter Property="FontStyle" Value="Normal" />
-        <Style.Triggers>
+        <!--<Style.Triggers>
             <Trigger Property="IsSelected" Value="True">
-                <!--<Setter Property="HeaderTemplate" Value="{StaticResource editableName}" />-->
                 <Setter Property="FontWeight" Value="SemiBold" />
                 <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" />
             </Trigger>
-        </Style.Triggers>
+        </Style.Triggers>-->
     </Style>
 </ResourceDictionary>
